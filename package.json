@@ -1,0 +1,22 @@
+{
+  "name": "tp3-new-emails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp default"
+  },
+  "keywords": [
+    "email",
+    "tp3"
+  ],
+  "author": "fb <fb@lmx.su>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-mjml": "^4.0.2"
+  }
+}

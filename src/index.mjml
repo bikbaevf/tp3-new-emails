@@ -1,0 +1,605 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" font-style="normal" font-weight="normal" color="#000000" />
+      <mj-image padding="0" />
+      <mj-section padding="0" />
+      <mj-class name="article-title" font-weight="bold" font-size="16px" line-height="17px" color="#1F88E5" padding-bottom="7px" />
+      <mj-class name="article-text" font-size="13px" line-height="20px" />
+      <mj-class name="article-section" padding-left="30px" padding-bottom="24px" />
+      <mj-class name="article-left-column" width="60px" />
+      <mj-class name="article-right-column" width="400px" />
+      <mj-all font-family="Arial, sans-serif" />
+    </mj-attributes>
+
+    <mj-breakpoint width="500px" />
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
+
+    <mj-style inline="inline">
+       .body {
+        padding-top: 25px !important;
+      }
+
+      .password-group {
+        width: 256px !important;
+      }
+        
+      .password-column-left {
+        width: 100px !important;
+      }
+
+      .password-column-right {
+        width: 156px !important;
+      }
+
+      .article-left-column {
+        width: 60px !important;
+      }
+
+      .article-right-column {
+        width: 400px !important;
+      }
+
+      .ya-zen-column-left {
+        width: 153px !important;
+      }
+
+      .ya-zen-column-right {
+        width: 215px !important;
+      }
+
+      .phone-link {
+        font-weight: 900 !important;
+        text-decoration: none;
+        color: #2F3E6D
+      }
+
+      .reset-button a {
+        padding: 0 !important;
+      }
+
+      .article-link {
+        color: #1F88E5 !important;
+        text-decoration: none;
+      }
+
+      .br {
+        display: none;
+      }
+
+      .desktop-hidden {
+        display: none;
+      }
+
+      .button a {
+        width: 290px !important;
+        padding: 16px 0 !important;
+      }
+
+      .social-wrapper {
+        width: 200px !important;
+      }
+
+      .social-item {
+        width: 51px !important;
+      }
+
+      .social-item--last {
+        width: 44px !important;
+      }
+
+      .social-item-link {
+        width: 44px !important;
+        height: 44px !important;
+        display: block !important;
+      }
+    </mj-style>
+
+    <mj-style>
+    @media only screen and (max-width:500px) {
+        .body {
+          padding-top: 0 !important;
+        }
+
+        .wrapper>table>tbody>tr>td {
+          padding: 0 15px !important;
+        }
+        
+        .logo img {
+          width: 150px !important;
+          height: 28px !important;
+        }
+
+        .header>div>table {
+          background: #5530E7 url("https://i.ibb.co/cvmTk84/banner-1-mobile.png") top center / cover no-repeat !important;
+        }
+
+        .header>div>table>tbody>tr>td {
+          padding: 44px 0 29px !important;
+        }
+
+        .header-text div {
+          font-size: 19px !important;
+          line-height: 21px !important;
+        }
+
+        .greeting-section>table>tbody>tr>td {
+          padding: 25px 0 !important;
+        }
+
+        .greeting-title {
+          padding-bottom: 10px !important;
+        }
+
+        .greeting-title div {
+          font-size: 18px !important;
+          line-height: 27px !important;
+        }
+
+        .greeting-text div {
+          font-size: 14px !important;
+          line-height: 21px !important;
+        }
+        
+        .password-column-left {
+          width: 95px !important;
+        }
+
+        .password-text div {
+          font-size: 13px !important;
+          line-height: 17px !important;
+        }
+
+        .button-section>table>tbody>tr>td {
+          padding-bottom: 28px !important;
+        }
+
+        .button>table {
+          width: 305px !important;
+        }
+
+        .button>table>tbody>tr>td {
+          height>table>tbody>tr>td: 50px !important;
+        }
+
+        .button a {
+          width: 305px !important;
+          padding: 13px 0 !important;
+        }
+
+        .articles-title-section>table>tbody>tr>td {
+          padding-bottom: 32px !important;
+        }
+
+        .articles-title {
+          padding-left: 0 !important;
+        }
+
+        .articles-title div {
+          font-size: 14px !important;
+          line-height: 22px !important;
+          text-align: center !important;
+        }
+
+        .article-section>table>tbody>tr>td {
+          padding-left: 5px !important;
+          padding-bottom: 30px !important;
+        }
+
+        .article-section--last>table>tbody>tr>td {
+          padding-bottom: 42px !important;
+        }
+
+        .article-left-column {
+          width: 50px !important;
+        }
+
+        .article-right-column {
+          width: 275px !important;
+
+        }
+
+        .article-title {
+          padding-bottom: 8px !important;
+        }
+
+        .article-title--pt {
+          padding-top: 3px !important;
+        }
+
+        .article-title>div {
+          font-size: 15px !important;
+        }
+
+        .article-text>div {
+          line-height: 19px !important;
+        }
+
+        .br {
+          display: block !important;
+        }
+
+        .phone-section>table>tbody>tr>td {
+          padding: 0 15px 24px !important;
+        }
+
+        .phone-column>table>tbody>tr>td {
+          padding: 14px 20px !important;
+        }
+
+        .phone-text>div {
+          font-size: 14px !important;
+          line-height: 14px !important;
+          text-align: left !important;
+        }
+
+        .phone-text a {
+          font-size: 24px !important;
+          line-height: 27px !important;
+        }
+
+        .wrapper--bottom>table>tbody>tr>td {
+          padding-left: 51px !important;
+        }
+
+        .wrapper--bottom,
+        .wrapper--bottom>table {
+          background-color: #FFFFFF !important;
+        }
+
+        .ya-zen-section>table>tbody>tr>td {
+          padding: 0 !important;
+          padding-bottom: 20px !important;
+        }
+
+        .ya-zen-column-left>table>tbody>tr>td {
+          padding: 0 !important;
+          padding-bottom: 13px !important;
+        }
+
+        .ya-zen-link {
+          width: 124px !important;
+          height: 24px !important;
+          display: block !important;
+        }
+
+        .ya-zen-image img {
+          width: 124px !important;
+        }
+
+        .divider-section {
+          display: none !important;
+        }
+
+        .mobile-hidden {
+          display: none !important;
+        }
+
+        .mobile-show {
+          display: block !important;
+        }
+
+        .social-section>table>tbody>tr>td {
+          padding: 0 !important;
+          padding-bottom: 12px !important;
+        }
+
+        .social-item {
+          width: 48px !important;
+        }
+
+        .social-item>table>tbody>tr>td {
+          padding-right: 11px !important;
+          width: 48px !important;
+        }
+
+        .social-item--last {
+          width: 37px !important;
+        }
+
+        .social-item--last>table>tbody>tr>td {
+          padding-right: 0 !important;
+          width: 37px !important;
+        }
+
+        .social-item-link {
+          width: 37px !important;
+          height: 37px !important;
+        }
+
+        .social-item-image {
+          width: 37px !important;
+          height: 37px !important;
+          display: block !important;
+        }
+
+        .notifications-text>div {
+          text-align: left !important;
+        }
+
+        .unsubscribe-section>table>tbody>tr>td {
+          padding-bottom: 30px !important;
+        }
+
+        .unsubscribe-button {
+          text-align: left !important;
+        }
+      }
+  </mj-style>
+
+    <mj-title>
+      Успешная регистрация
+    </mj-title>
+    <mj-preview>
+     Здравствуйте, Андрей Чугунов. Поздравляем! Вы успешно зарегистрировались в системе по поиску и управлению тендерами - Тендерплан.
+    </mj-preview>
+  </mj-head>
+
+  <mj-body css-class="body" width="580px" background-color="#F1F4F9">
+    <mj-wrapper css-class="wrapper" padding="0 20px" background-color="#FFFFFF">
+
+      <!-- LOGO -->
+
+      <mj-section padding="12px 0">
+        <mj-column>
+          <mj-image css-class="logo" padding="0" align="left" width="171px" src="https://i.ibb.co/zNdHLW4/logo.png" alt="Logo" href="https://tenderplan.ru/?utm_source=email&utm_medium=logo&utm_campaign=welcome" />
+        </mj-column>
+      </mj-section>
+
+      <!-- HEADER -->
+
+      <mj-section css-class="header" background-url="https://i.ibb.co/k5BW2NC/banner-1.png" padding="64px 0 44px" background-size="cover" background-repeat="no-repeat" background-color="#5530E7" border-radius="9px">
+        <mj-column>
+          <mj-text css-class="header-text" color="#FFFFFF" font-size="30px" line-height="37px" align="center" font-style="normal" font-weight="700">
+            Добро пожаловать <br/> в Тендерплан!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- GREETING -->
+
+      <mj-section css-class="greeting-section" padding="28px 0 20px">
+        <mj-column>
+          <mj-text css-class="greeting-title" padding-bottom="16px" align="center" font-weight="700" font-size="24px" line-height="28px">
+            Здравствуйте, Андрей Чугунов.
+          </mj-text>
+
+          <mj-text css-class="greeting-text" font-size="18px" line-height="27px" align="center">
+            Поздравляем! Вы успешно зарегистрировались <br/> в системе по поиску и управлению тендерами.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- PASSWORD -->
+
+      <mj-section padding-bottom="28px">
+        <mj-group css-class="password-group" width="256px">
+          <mj-column css-class="password-column-left" padding="16px 0" width="100px">
+            <mj-text css-class="password-text" font-size="15px" line-height="19px" color="#394D72">
+              Ваш пароль:
+            </mj-text>
+          </mj-column>
+
+          <mj-column css-class="password-column-right" background-color="#F5F8FA" border-radius="8px" padding="14px 0" width="156px">
+            <mj-text font-family="Inter, Arial, sans-serif" font-weight="bold" font-size="18px" line-height="22px" align="center">
+              D4GSDF
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- BUTTON -->
+
+      <mj-section css-class="button-section" padding-bottom="40px">
+        <mj-column>
+          <mj-button css-class="button reset-button" padding="0" line-height="24px" border-radius="90px" background-color="#6F61D3" color="#FFFFFF" font-weight="bold" font-size="20px" href="https://tenderplan.ru/app?utm_source=email&utm_medium=button&utm_campaign=welcome"
+            height="56px" width="290px">
+            Перейти в Тендерплан
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- ARTICLES SECTION -->
+
+      <!-- TITLE -->
+
+      <mj-section css-class="articles-title-section" padding-bottom="26px">
+        <mj-column>
+          <mj-text css-class="articles-title" font-weight="700" font-size="20px" line-height="22px" padding-left="44px">
+            Полезные материалы для быстрого старта
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ARTICLES -->
+
+      <mj-section css-class="article-section" mj-class="article-section">
+        <mj-group>
+          <mj-column css-class="article-left-column" mj-class="article-left-column">
+            <mj-image width="32px" height="32px" src="https://i.ibb.co/GnKbKTt/search-icon.png" />
+          </mj-column>
+
+          <mj-column css-class="article-right-column" mj-class="article-right-column">
+            <mj-text css-class="article-title article-title--pt" mj-class="article-title" padding-top="6px">
+              <a class="article-link" href="https://tenderplan.ru/app/settings?section=help&article=kak_naiti_tendery&utm_source=email&utm_medium=kak_naiti_tendery&utm_campaign=welcome" target="_blank">
+              Как найти тендеры?
+                </a>
+            </mj-text>
+
+            <mj-text css-class="article-text" mj-class="article-text">
+              Ищите тендеры точно по вашему запросу, без лишнего мусора! Находите тендеры, <br class="br" /> о которых не знают даже ваши конкуренты.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section css-class="article-section" mj-class="article-section">
+        <mj-group>
+          <mj-column css-class="article-left-column" mj-class="article-left-column">
+            <mj-image width="23px" height="23px" src="https://i.ibb.co/WWtnGgD/plane-icon.png" />
+          </mj-column>
+
+          <mj-column css-class="article-right-column" mj-class="article-right-column">
+            <mj-text css-class="article-title" mj-class="article-title">
+              <a class="article-link" href="https://tenderplan.ru/app/settings?section=help&article=kak_nachat_uchastvovat_v_torgah&utm_source=email&utm_medium=kak_nachat_uchastvovat_v_torgah&utm_campaign=welcome" target="_blank">
+              Как начать участвовать в торгах?
+              </a>
+            </mj-text>
+
+            <mj-text css-class="article-text" mj-class="article-text">
+              Поможем избежать частых ошибок новичков сохранив ваши деньги и время. Расскажем как подавать больше заявок вовремя.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section css-class="article-section" mj-class="article-section">
+        <mj-group>
+          <mj-column css-class="article-left-column" mj-class="article-left-column">
+            <mj-image width="25px" height="25px" src="https://i.ibb.co/MBd6QK7/analytics-icon.png" />
+          </mj-column>
+
+          <mj-column css-class="article-right-column" mj-class="article-right-column">
+            <mj-text css-class="article-title" mj-class="article-title"> <a class="article-link" href="https://tenderplan.ru/app/settings?section=help&article=kak_ispolzovat_analitiky&utm_source=email&utm_medium=kak_ispolzovat_analitiky&utm_campaign=welcome" target="_blank">
+              Как использовать аналитику?
+              </a>
+            </mj-text>
+
+            <mj-text css-class="article-text" mj-class="article-text">
+              Находите новые ниши или <br class="br" /> анализируйте свои. Зарабатывайте <br class="br" /> больше используя данные аналитики!
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section css-class="article-section article-section--last" mj-class="article-section" padding-bottom="26px">
+        <mj-group>
+          <mj-column css-class="article-left-column" mj-class="article-left-column">
+            <mj-image width="32px" height="32px" src="https://i.ibb.co/0KvYntQ/team-icon.png" />
+          </mj-column>
+
+          <mj-column css-class="article-right-column" mj-class="article-right-column">
+            <mj-text css-class="article-title" mj-class="article-title">
+              <a class="article-link" href="https://tenderplan.ru/app/settings?section=help&article=kak_vistroit_rabotu&utm_source=email&utm_medium=kak_vistroit_rabotu&utm_campaign=welcome" target="_blank">
+              Как выстроить работу?
+              </a>
+            </mj-text>
+
+            <mj-text css-class="article-text" mj-class="article-text">
+              Выстраивайте работу с коллегами <br class="br" /> используя инструменты Тендерплана! <br class="br" /> Получите максимальный результат.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- PHONE -->
+
+      <mj-section css-class="phone-section" text-align="center" padding-bottom="24px">
+        <mj-column css-class="phone-column" background-color="#F1F4F9" border-radius="4px" width="500px" padding="18px 0">
+          <mj-text css-class="phone-text" font-size="16px" line-height="17px" align="center" color="#2F3E6D">
+            Вопросы? Звоните по номеру <br class="br" /> <a class="phone-link" href="tel:+78003334505">8 800 333-45-05</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- FOOTER -->
+
+    <mj-wrapper css-class="wrapper wrapper--bottom" background-color="#F1F4F9" padding="0">
+
+      <!-- YA-ZEN -->
+
+      <mj-section css-class="ya-zen-section" padding="11px 0 16px">
+        <mj-column css-class="ya-zen-column-left" width="153px" padding-top="3px" padding-right="16px">
+          <mj-text css-class="ya-zen-image">
+            <a class="ya-zen-link" target="_blank" href="https://zen.yandex.ru/tenderplan">
+              <div>
+                <img alt="ya-zen" src="https://i.ibb.co/hg0yMtK/ya-dzen.png" />
+              </div>
+            </a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column css-class="ya-zen-column-right" width="215px">
+          <mj-text font-size="11px" line-height="15px" color="#8996AC">
+            <a class="mobile-hidden" href="https://zen.yandex.ru/tenderplan/" target="_blank" style="color: #8996AC; text-decoration: none;">
+            Читайте обучающие статьи по тендерам и разборы кейсов реальных поставщиков
+        </a>
+            <div class="desktop-hidden mobile-show">
+              Читайте обучающие статьи, разборы <br/> кейсов и другие полезные материалы.
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- DIVIDER -->
+
+      <mj-section css-class="divider-section">
+        <mj-column>
+          <mj-divider padding="0" border-width="1px" border-color="#D3DCE9" />
+        </mj-column>
+      </mj-section>
+
+      <!-- SOCIAL -->
+
+      <mj-section css-class="social-section" padding="6px 0">
+        <mj-group css-class="social-wrapper" width="200px">
+          <mj-column css-class="social-item" width="51px" padding-right="7px">
+            <mj-text css-class="social-item-text">
+              <a class="social-item-link" target="_blank" href="https://vk.com/tenderplan">
+                <img class="social-item-image" alt="vk" src="https://i.ibb.co/3v0Bh0F/vk.png" />
+              </a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column css-class="social-item" width="51px" padding-right="7px">
+            <mj-text>
+              <a class="social-item-link" target="_blank" href="https://www.facebook.com/tenderplan">
+                <img class="social-item-image" alt="facebook" src="https://i.ibb.co/ZT6Py31/facebook.png" />
+              </a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column css-class="social-item" width="51px" padding-right="7px">
+            <mj-text>
+              <a class="social-item-link" target="_blank" href="https://www.instagram.com/tenderplan.ru/">
+                <img class="social-item-image" alt="instagram" src="https://i.ibb.co/853j13s/instagram.png" />
+              </a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column css-class="social-item social-item--last" width="44px">
+            <mj-text>
+              <a class="social-item-link" target="_blank" href="https://www.youtube.com/channel/UC5ohzfKfpdI9O4k9iVexd1g/featured?view_as=subscriber">
+                <img class="social-item-image" alt="youtube" src="https://i.ibb.co/nBHGcP4/youtube.png" />
+              </a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- MESSAGE ABOUT NOTIFICATIONS -->
+
+      <mj-section padding-bottom="11px">
+        <mj-column width="340px">
+          <mj-text css-class="notifications-text" font-size="11px" line-height="14px" color="#9CA8BE" align="center">
+            Вы получили это сообщение, потому что <br class="desktop-hidden mobile-show" /> зарегистрированы <br class="mobile-hidden" /> в системе Тендерплан <br class="desktop-hidden mobile-show" /> и подписаны на получение уведомлений.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- UNSUBSCRIBE -->
+
+      <mj-section css-class="unsubscribe-section" padding-bottom="24px">
+        <mj-column>
+          <mj-button css-class="unsubscribe-button reset-button" padding="0px" background-color="transparent" href="#" font-size="11px" line-height="13px" color="#1F88E5">
+            Больше не получать уведомления.
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
