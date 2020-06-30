@@ -1,0 +1,44 @@
+    <mj-style>
+        @media only screen and (max-width:500px) {
+          .body {
+            padding-top: 0 !important;
+          }
+          .wrapper>table>tbody>tr>td {
+            padding: 0 !important;
+          }
+          .mobile-hidden {
+            display: none !important;
+          }
+          .mobile-show {
+            display: block !important;
+          }
+          .logo img {
+            width: 150px !important;
+            height: 28px !important;
+          }
+          .header>div>table>tbody>tr>td {
+            padding: 44px 0 29px !important;
+          }
+          .header-text div {
+            font-size: 19px !important;
+            line-height: 21px !important;
+          }
+          .greeting-section>table>tbody>tr>td {
+            padding: 25px 0 !important;
+          }
+          .greeting-title div {
+            font-size: 18px !important;
+            line-height: 27px !important;
+          }
+          .login-button>table {
+            width: 305px !important;
+          }
+          .login-button>table>tbody>tr>td {
+            height: 50px !important;
+          }
+          .login-button a {
+            width: 305px !important;
+            padding: 13px 0 !important;
+          }
+        }
+    </mj-style>

@@ -1,0 +1,72 @@
+  <mj-style>
+        @media only screen and (max-width:500px) {
+          .footer-wrapper>table>tbody>tr>td {
+            padding: 0 !important;
+            padding-left: 35px !important;
+          }
+          .footer-wrapper,
+          .footer-wrapper>table {
+            background-color: #FFFFFF !important;
+          }
+          .ya-zen-section>table>tbody>tr>td {
+            padding: 0 !important;
+            text-align: left !important;
+            padding-bottom: 20px !important;
+          }
+          .ya-zen-column-left {
+            width: 100% !important;
+          }
+          .ya-zen-column-left>table>tbody>tr>td {
+            padding: 0 !important;
+            padding-bottom: 13px !important;
+          }
+          .ya-zen-link {
+            width: 124px !important;
+            height: 24px !important;
+            display: block !important;
+          }
+          .ya-zen-image img {
+            width: 124px !important;
+          }
+          .divider-section {
+            display: none !important;
+          }
+          .social-section>table>tbody>tr>td {
+            padding: 0 !important;
+            padding-bottom: 12px !important;
+            text-align: left !important;
+          }
+          .social-item {
+            width: 48px !important;
+          }
+          .social-item>table>tbody>tr>td {
+            padding-right: 11px !important;
+            width: 48px !important;
+          }
+          .social-item--last {
+            width: 37px !important;
+          }
+          .social-item--last>table>tbody>tr>td {
+            padding-right: 0 !important;
+            width: 37px !important;
+          }
+          .social-item-link {
+            width: 37px !important;
+            height: 37px !important;
+          }
+          .social-item-image {
+            width: 37px !important;
+            height: 37px !important;
+            display: block !important;
+          }
+          .notifications-text>div {
+            text-align: left !important;
+          }
+          .unsubscribe-section>table>tbody>tr>td {
+            padding-bottom: 30px !important;
+          }
+          .unsubscribe-button {
+            text-align: left !important;
+          }
+        }
+    </mj-style>

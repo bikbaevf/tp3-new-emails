@@ -1,0 +1,27 @@
+   <mj-style inline="inline">
+        .ya-zen-column-left {
+          width: 153px !important;
+        }
+
+        .ya-zen-column-right {
+          width: 215px !important;
+        }
+
+        .social-wrapper {
+          width: 200px !important;
+        }
+
+        .social-item {
+          width: 51px !important;
+        }
+
+        .social-item--last {
+          width: 44px !important;
+        }
+
+        .social-item-link {
+          width: 44px !important;
+          height: 44px !important;
+          display: block !important;
+        }
+    </mj-style>

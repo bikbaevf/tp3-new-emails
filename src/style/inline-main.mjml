@@ -1,0 +1,18 @@
+    <mj-style inline="inline">
+        .body {
+          padding-top: 25px !important;
+        }
+
+        .reset-button a {
+          padding: 0 !important;
+        }
+
+        .mobile-show {
+          display: none !important;
+        }
+
+        .login-button a {
+          width: 290px !important;
+          padding: 16px 0 !important;
+        }
+    </mj-style>

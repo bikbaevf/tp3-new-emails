@@ -1,0 +1,7 @@
+    <mj-style inline="inline">
+        .phone-link {
+          font-weight: 900 !important;
+          text-decoration: none;
+          color: #2F3E6D
+        }
+    </mj-style>

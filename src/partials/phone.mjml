@@ -1,0 +1,9 @@
+      <!-- PHONE -->
+
+      <mj-section css-class="phone-section" text-align="center" padding-bottom="24px">
+        <mj-column css-class="phone-column" background-color="#F1F4F9" border-radius="4px" width="500px" padding="18px 0">
+          <mj-text css-class="phone-text" font-size="16px" line-height="17px" align="center" color="#2F3E6D">
+            Вопросы? Звоните по номеру <br class="mobile-show" /> <a class="phone-link" href="tel:+78003334505">8 800 333-45-05</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>

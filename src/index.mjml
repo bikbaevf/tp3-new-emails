@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" font-style="normal" font-weight="normal" color="#000000" />
+      <mj-image padding="0" />
+      <mj-section padding="0" />
+      <mj-all font-family="Arial, sans-serif" />
+    </mj-attributes>
+
+    <mj-breakpoint width="500px" />
+
+    <mj-include path="./style/inline-main.mjml" />
+    <mj-include path="./style/main.mjml" />
+    <mj-include path="./style/blocks/phone/phone-inline-style.mjml" />
+    <mj-include path="./style/blocks/phone/phone-style.mjml" />
+    <mj-include path="./style/blocks/footer/footer-inline-style.mjml" />
+    <mj-include path="./style/blocks/footer/footer-style.mjml" />
+
+    <mj-style inline="inline">
+        .ignore-column {
+          width: 355px !important;
+        }
+    </mj-style>
+
+
+    <mj-style>
+        @media only screen and (max-width:500px) {
+          .greeting-title {
+            padding-bottom: 15px !important;
+          }
+          .greeting-text div {
+            font-size: 15px !important;
+            line-height: 22px !important;
+          }
+          .ignore-section>table>tbody>tr>td {
+            padding-bottom: 20px !important;
+          }
+          .ignore-column {
+              width: 275px !important;
+          }
+          .ignore-text div {
+            font-size: 14px !important;
+            line-height: 21px !important;
+          }
+          
+          }
+    </mj-style>
+    <mj-title>
+        Приглашение в систему Тендерплан! 
+    </mj-title>
+    <mj-preview>
+        Андрей Чугунов приглашает Вас в аккаунт компании «Бизнес Технологии».
+    </mj-preview>
+  </mj-head>
+
+  <mj-body css-class="body" width="580px" background-color="#F1F4F9">
+    <mj-wrapper css-class="wrapper" padding="0 20px" background-color="#FFFFFF">
+
+    <!-- LOGO -->
+
+      <mj-section padding="12px 0">
+        <mj-column>
+          <mj-image css-class="logo" padding="0" align="left" width="171px" src="https://i.ibb.co/zNdHLW4/logo.png" alt="Logo" href="https://tenderplan.ru/?utm_source=email&utm_medium=logo&utm_campaign=invite_mail" />
+        </mj-column>
+      </mj-section>
+
+     <!-- HEADER -->
+
+      <mj-section css-class="header" background-url="https://i.ibb.co/S3rK1NK/banner-2.png" padding="64px 0 44px" background-size="cover" background-repeat="no-repeat" background-color="#4ABE8C" border-radius="9px">
+        <mj-column>
+          <mj-text css-class="header-text" color="#FFFFFF" font-size="30px" line-height="37px" align="center" font-style="normal" font-weight="700">
+            Приглашение в систему <br/> Тендерплан
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    <!-- GREETING -->
+
+      <mj-section css-class="greeting-section" padding="28px 0">
+        <mj-column>
+          <mj-text css-class="greeting-title" padding-bottom="16px" align="center" font-weight="700" font-size="24px" line-height="28px">
+            Здравствуйте, Александр Павлов.
+          </mj-text>
+
+          <mj-text css-class="greeting-text" font-size="18px" line-height="27px" align="center">
+            Андрей Чугунов приглашает Вас в аккаунт <br />
+            компании «Бизнес Технологии».
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+        <!-- BUTTON -->
+
+      <mj-section css-class="login-button-section" padding-bottom="45px">
+        <mj-column>
+          <mj-button css-class="login-button reset-button" padding="0" line-height="24px" border-radius="90px" background-color="#6F61D3" color="#FFFFFF" font-weight="bold" font-size="20px" href="#"
+            height="56px" width="290px">
+            Принять приглашение
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- IGNORE -->
+
+        <mj-section css-class="ignore-section" padding-bottom="10px">
+        <mj-column css-class="ignore-column" width="355px" >
+          <mj-text css-class="ignore-text" font-size="16px" color="#394D72" line-height="24px" align="center">
+         Если вы не ожидаете приглашения, просто проигнорируйте это письмо.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    <mj-include path="./partials/phone.mjml" />
+    </mj-wrapper>
+
+    <mj-include path="./partials/footer.mjml" />
+
+  </mj-body>
+</mjml>

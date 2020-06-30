@@ -32,12 +32,12 @@ function webserver() {
   });
 
   gulp.watch(`${paths.src}/**.*`, gulp.series(clean, copy));
-  gulp.watch(`${paths.src}/*.mjml`, gulp.series(refresh, mjml));
+  gulp.watch(`${paths.src}/**/*.mjml`, gulp.series(refresh, mjml));
 }
 
 function mjml() {
   return gulp
-    .src(`${paths.src}/**/*.mjml`)
+    .src(`${paths.src}/*.mjml`)
     .pipe(gulpMjml())
     .pipe(gulp.dest(paths.dist));
 }
