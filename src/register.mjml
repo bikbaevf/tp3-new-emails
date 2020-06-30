@@ -16,259 +16,59 @@
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
 
     <mj-style inline="inline">
-       .body {
-        padding-top: 25px !important;
-      }
-
-      .password-group {
-        width: 256px !important;
-      }
-        
-      .password-column-left {
-        width: 100px !important;
-      }
-
-      .password-column-right {
-        width: 156px !important;
-      }
-
-      .article-left-column {
-        width: 60px !important;
-      }
-
-      .article-right-column {
-        width: 400px !important;
-      }
-
-      .ya-zen-column-left {
-        width: 153px !important;
-      }
-
-      .ya-zen-column-right {
-        width: 215px !important;
-      }
-
-      .phone-link {
-        font-weight: 900 !important;
-        text-decoration: none;
-        color: #2F3E6D
-      }
-
-      .reset-button a {
-        padding: 0 !important;
-      }
-
-      .article-link {
-        color: #1F88E5 !important;
-        text-decoration: none;
-      }
-
-      .br {
-        display: none;
-      }
-
-      .desktop-hidden {
-        display: none;
-      }
-
-      .button a {
-        width: 290px !important;
-        padding: 16px 0 !important;
-      }
-
-      .social-wrapper {
-        width: 200px !important;
-      }
-
-      .social-item {
-        width: 51px !important;
-      }
-
-      .social-item--last {
-        width: 44px !important;
-      }
-
-      .social-item-link {
-        width: 44px !important;
-        height: 44px !important;
-        display: block !important;
-      }
-    </mj-style>
-
-    <mj-style>
-    @media only screen and (max-width:500px) {
         .body {
-          padding-top: 0 !important;
+          padding-top: 25px !important;
         }
 
-        .wrapper>table>tbody>tr>td {
-          padding: 0 15px !important;
-        }
-        
-        .logo img {
-          width: 150px !important;
-          height: 28px !important;
+        .password-group {
+          width: 256px !important;
         }
 
-        .header>div>table {
-          background: #5530E7 url("https://i.ibb.co/cvmTk84/banner-1-mobile.png") top center / cover no-repeat !important;
-        }
-
-        .header>div>table>tbody>tr>td {
-          padding: 44px 0 29px !important;
-        }
-
-        .header-text div {
-          font-size: 19px !important;
-          line-height: 21px !important;
-        }
-
-        .greeting-section>table>tbody>tr>td {
-          padding: 25px 0 !important;
-        }
-
-        .greeting-title {
-          padding-bottom: 10px !important;
-        }
-
-        .greeting-title div {
-          font-size: 18px !important;
-          line-height: 27px !important;
-        }
-
-        .greeting-text div {
-          font-size: 14px !important;
-          line-height: 21px !important;
-        }
-        
         .password-column-left {
-          width: 95px !important;
+          width: 100px !important;
         }
 
-        .password-text div {
-          font-size: 13px !important;
-          line-height: 17px !important;
-        }
-
-        .button-section>table>tbody>tr>td {
-          padding-bottom: 28px !important;
-        }
-
-        .button>table {
-          width: 305px !important;
-        }
-
-        .button>table>tbody>tr>td {
-          height>table>tbody>tr>td: 50px !important;
-        }
-
-        .button a {
-          width: 305px !important;
-          padding: 13px 0 !important;
-        }
-
-        .articles-title-section>table>tbody>tr>td {
-          padding-bottom: 32px !important;
-        }
-
-        .articles-title {
-          padding-left: 0 !important;
-        }
-
-        .articles-title div {
-          font-size: 14px !important;
-          line-height: 22px !important;
-          text-align: center !important;
-        }
-
-        .article-section>table>tbody>tr>td {
-          padding-left: 5px !important;
-          padding-bottom: 30px !important;
-        }
-
-        .article-section--last>table>tbody>tr>td {
-          padding-bottom: 42px !important;
+        .password-column-right {
+          width: 156px !important;
         }
 
         .article-left-column {
-          width: 50px !important;
+          width: 60px !important;
         }
 
         .article-right-column {
-          width: 275px !important;
-
+          width: 400px !important;
         }
 
-        .article-title {
-          padding-bottom: 8px !important;
+        .ya-zen-column-left {
+          width: 153px !important;
         }
 
-        .article-title--pt {
-          padding-top: 3px !important;
+        .ya-zen-column-right {
+          width: 215px !important;
         }
 
-        .article-title>div {
-          font-size: 15px !important;
+        .phone-link {
+          font-weight: 900 !important;
+          text-decoration: none;
+          color: #2F3E6D
         }
 
-        .article-text>div {
-          line-height: 19px !important;
+        .reset-button a {
+          padding: 0 !important;
+        }
+
+        .article-link {
+          color: #1F88E5 !important;
+          text-decoration: none;
         }
 
         .br {
-          display: block !important;
+          display: none;
         }
 
-        .phone-section>table>tbody>tr>td {
-          padding: 0 15px 24px !important;
-        }
-
-        .phone-column>table>tbody>tr>td {
-          padding: 14px 20px !important;
-        }
-
-        .phone-text>div {
-          font-size: 14px !important;
-          line-height: 14px !important;
-          text-align: left !important;
-        }
-
-        .phone-text a {
-          font-size: 24px !important;
-          line-height: 27px !important;
-        }
-
-        .wrapper--bottom>table>tbody>tr>td {
-          padding-left: 51px !important;
-        }
-
-        .wrapper--bottom,
-        .wrapper--bottom>table {
-          background-color: #FFFFFF !important;
-        }
-
-        .ya-zen-section>table>tbody>tr>td {
-          padding: 0 !important;
-          padding-bottom: 20px !important;
-        }
-
-        .ya-zen-column-left>table>tbody>tr>td {
-          padding: 0 !important;
-          padding-bottom: 13px !important;
-        }
-
-        .ya-zen-link {
-          width: 124px !important;
-          height: 24px !important;
-          display: block !important;
-        }
-
-        .ya-zen-image img {
-          width: 124px !important;
-        }
-
-        .divider-section {
-          display: none !important;
+        .desktop-hidden {
+          display: none;
         }
 
         .mobile-hidden {
@@ -279,61 +79,234 @@
           display: block !important;
         }
 
-        .social-section>table>tbody>tr>td {
-          padding: 0 !important;
-          padding-bottom: 12px !important;
+        .button a {
+          width: 290px !important;
+          padding: 16px 0 !important;
+        }
+
+        .social-wrapper {
+          width: 200px !important;
         }
 
         .social-item {
-          width: 48px !important;
-        }
-
-        .social-item>table>tbody>tr>td {
-          padding-right: 11px !important;
-          width: 48px !important;
+          width: 51px !important;
         }
 
         .social-item--last {
-          width: 37px !important;
-        }
-
-        .social-item--last>table>tbody>tr>td {
-          padding-right: 0 !important;
-          width: 37px !important;
+          width: 44px !important;
         }
 
         .social-item-link {
-          width: 37px !important;
-          height: 37px !important;
-        }
-
-        .social-item-image {
-          width: 37px !important;
-          height: 37px !important;
+          width: 44px !important;
+          height: 44px !important;
           display: block !important;
         }
+    </mj-style>
 
-        .notifications-text>div {
-          text-align: left !important;
+    <mj-style>
+        @media only screen and (max-width:500px) {
+          .body {
+            padding-top: 0 !important;
+          }
+          .wrapper>table>tbody>tr>td {
+            padding: 0 !important;
+          }
+          .logo img {
+            width: 150px !important;
+            height: 28px !important;
+          }
+          .header>div>table {
+            /* background: #5530E7 url("https://i.ibb.co/cvmTk84/banner-1-mobile.png")
+              top center / cover no-repeat !important; Не работает в mail.ru */
+          }
+          .header>div>table>tbody>tr>td {
+            padding: 44px 0 29px !important;
+          }
+          .header-text div {
+            font-size: 19px !important;
+            line-height: 21px !important;
+          }
+          .greeting-section>table>tbody>tr>td {
+            padding: 25px 0 !important;
+          }
+          .greeting-title {
+            padding-bottom: 10px !important;
+          }
+          .greeting-title div {
+            font-size: 18px !important;
+            line-height: 27px !important;
+          }
+          .greeting-text div {
+            font-size: 14px !important;
+            line-height: 21px !important;
+          }
+          .password-column-left {
+            width: 95px !important;
+          }
+          .password-text div {
+            font-size: 13px !important;
+            line-height: 17px !important;
+          }
+          .button-section>table>tbody>tr>td {
+            padding-bottom: 28px !important;
+          }
+          .button>table {
+            width: 305px !important;
+          }
+          .button>table>tbody>tr>td {
+            height: 50px !important;
+          }
+          .button a {
+            width: 305px !important;
+            padding: 13px 0 !important;
+          }
+          .articles-title-section>table>tbody>tr>td {
+            padding-bottom: 32px !important;
+          }
+          .articles-title {
+            padding-left: 0 !important;
+          }
+          .articles-title div {
+            font-size: 14px !important;
+            line-height: 22px !important;
+            text-align: center !important;
+          }
+          .article-section>table>tbody>tr>td {
+            padding-left: 5px !important;
+            padding-bottom: 30px !important;
+          }
+          .article-section--last>table>tbody>tr>td {
+            padding-bottom: 42px !important;
+          }
+          .article-left-column {
+            width: 50px !important;
+          }
+          .article-right-column {
+            width: 275px !important;
+          }
+          .article-title {
+            padding-bottom: 8px !important;
+          }
+          .article-title--pt {
+            padding-top: 3px !important;
+          }
+          .article-title>div {
+            font-size: 15px !important;
+          }
+          .article-text>div {
+            line-height: 19px !important;
+          }
+          .br {
+            display: block !important;
+          }
+          .phone-section>table>tbody>tr>td {
+            padding: 0 15px 24px !important;
+          }
+          .phone-column>table>tbody>tr>td {
+            padding: 14px 20px !important;
+          }
+          .phone-text>div {
+            font-size: 14px !important;
+            line-height: 14px !important;
+            text-align: left !important;
+          }
+          .phone-text a {
+            font-size: 24px !important;
+            line-height: 27px !important;
+          }
+          .wrapper--bottom>table>tbody>tr>td {
+            padding-left: 35px !important;
+          }
+          .wrapper--bottom,
+          .wrapper--bottom>table {
+            background-color: #FFFFFF !important;
+          }
+          .ya-zen-section>table>tbody>tr>td {
+            padding: 0 !important;
+            text-align: left !important;
+            padding-bottom: 20px !important;
+          }
+          .ya-zen-column-left {
+            width: 100% !important;
+          }
+          .ya-zen-column-left>table>tbody>tr>td {
+            padding: 0 !important;
+            padding-bottom: 13px !important;
+          }
+          .ya-zen-link {
+            width: 124px !important;
+            height: 24px !important;
+            display: block !important;
+          }
+          .ya-zen-image img {
+            width: 124px !important;
+          }
+          .divider-section {
+            display: none !important;
+          }
+          .social-section>table>tbody>tr>td {
+            padding: 0 !important;
+            padding-bottom: 12px !important;
+            text-align: left !important;
+          }
+          .social-item {
+            width: 48px !important;
+          }
+          .social-item>table>tbody>tr>td {
+            padding-right: 11px !important;
+            width: 48px !important;
+          }
+          .social-item--last {
+            width: 37px !important;
+          }
+          .social-item--last>table>tbody>tr>td {
+            padding-right: 0 !important;
+            width: 37px !important;
+          }
+          .social-item-link {
+            width: 37px !important;
+            height: 37px !important;
+          }
+          .social-item-image {
+            width: 37px !important;
+            height: 37px !important;
+            display: block !important;
+          }
+          .notifications-text>div {
+            text-align: left !important;
+          }
+          .unsubscribe-section>table>tbody>tr>td {
+            padding-bottom: 30px !important;
+          }
+          .unsubscribe-button {
+            text-align: left !important;
+          }
         }
 
-        .unsubscribe-section>table>tbody>tr>td {
-          padding-bottom: 30px !important;
+        @media only screen and (max-width:360px) {
+          .greeting-text div {
+            font-size: 13px !important;
+          }
+          .article-right-column {
+            width: 250px !important;
+          }
+          .article-title>div {
+            font-size: 14px !important;
+          }
+          .article-text>div {
+            font-size: 11px !important;
+          }
         }
-
-        .unsubscribe-button {
-          text-align: left !important;
-        }
-      }
-  </mj-style>
+    </mj-style>
 
     <mj-title>
       Успешная регистрация
     </mj-title>
     <mj-preview>
-     Здравствуйте, Андрей Чугунов. Поздравляем! Вы успешно зарегистрировались в системе по поиску и управлению тендерами - Тендерплан.
+      Здравствуйте, Андрей Чугунов. Поздравляем! Вы успешно зарегистрировались в системе по поиску и управлению тендерами - Тендерплан.
     </mj-preview>
   </mj-head>
+
 
   <mj-body css-class="body" width="580px" background-color="#F1F4F9">
     <mj-wrapper css-class="wrapper" padding="0 20px" background-color="#FFFFFF">
@@ -398,7 +371,6 @@
           </mj-button>
         </mj-column>
       </mj-section>
-
 
       <!-- ARTICLES SECTION -->
 
@@ -600,6 +572,5 @@
       </mj-section>
 
     </mj-wrapper>
-
   </mj-body>
 </mjml>
