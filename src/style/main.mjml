@@ -30,13 +30,13 @@
             font-size: 18px !important;
             line-height: 27px !important;
           }
-          .login-button>table {
+          .tp3-button>table {
             width: 305px !important;
           }
-          .login-button>table>tbody>tr>td {
+          .tp3-button>table>tbody>tr>td {
             height: 50px !important;
           }
-          .login-button a {
+          .tp3-button a {
             width: 305px !important;
             padding: 13px 0 !important;
           }

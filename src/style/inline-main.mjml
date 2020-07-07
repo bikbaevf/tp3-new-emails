@@ -1,4 +1,9 @@
     <mj-style inline="inline">
+        img {
+          max-width: 100% !important;
+          height: auto !important;
+        }
+
         .body {
           padding-top: 25px !important;
         }
@@ -11,7 +16,7 @@
           display: none !important;
         }
 
-        .login-button a {
+        .tp3-button a {
           width: 290px !important;
           padding: 16px 0 !important;
         }

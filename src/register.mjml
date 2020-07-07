@@ -65,7 +65,7 @@
             font-size: 13px !important;
             line-height: 17px !important;
           }
-          .login-button-section>table>tbody>tr>td {
+          .tp3-button-section>table>tbody>tr>td {
             padding-bottom: 28px !important;
           }
           .articles-title-section>table>tbody>tr>td {
@@ -126,7 +126,7 @@
       Успешная регистрация
     </mj-title>
     <mj-preview>
-      Здравствуйте, Андрей Чугунов. Поздравляем! Вы успешно зарегистрировались в системе по поиску и управлению тендерами - Тендерплан.
+      В ваш аккаунт уже поступают новые тендеры и вы можете начать участвовать и выигрывать прямо сейчас...
     </mj-preview>
   </mj-head>
 
@@ -138,13 +138,13 @@
 
       <mj-section padding="12px 0">
         <mj-column>
-          <mj-image css-class="logo" padding="0" align="left" width="171px" src="https://i.ibb.co/zNdHLW4/logo.png" alt="Logo" href="https://tenderplan.ru/?utm_source=email&utm_medium=logo&utm_campaign=welcome" />
+          <mj-image css-class="logo" padding="0" align="left" width="171px" src="https://i.ibb.co/zxwVM3N/logo.png" href="https://tenderplan.ru/?utm_source=email&utm_medium=logo&utm_campaign=welcome" />
         </mj-column>
       </mj-section>
 
       <!-- HEADER -->
 
-      <mj-section css-class="header" background-url="https://i.ibb.co/k5BW2NC/banner-1.png" padding="64px 0 44px" background-size="cover" background-repeat="no-repeat" background-color="#5530E7" border-radius="9px">
+      <mj-section css-class="header" background-url="https://i.ibb.co/2PC268F/banner-1.png" padding="64px 0 44px" background-size="cover" background-repeat="no-repeat" background-color="#5530E7" border-radius="9px">
         <mj-column>
           <mj-text css-class="header-text" color="#FFFFFF" font-size="30px" line-height="37px" align="center" font-style="normal" font-weight="700">
             Добро пожаловать <br/> в Тендерплан!
@@ -186,9 +186,9 @@
 
       <!-- BUTTON -->
 
-      <mj-section css-class="login-button-section" padding-bottom="40px">
+      <mj-section css-class="tp3-button-section" padding-bottom="40px">
         <mj-column>
-          <mj-button css-class="login-button reset-button" padding="0" line-height="24px" border-radius="90px" background-color="#6F61D3" color="#FFFFFF" font-weight="bold" font-size="20px" href="https://tenderplan.ru/app?utm_source=email&utm_medium=button&utm_campaign=welcome"
+          <mj-button css-class="tp3-button reset-button" padding="0" line-height="24px" border-radius="90px" background-color="#6F61D3" color="#FFFFFF" font-weight="bold" font-size="20px" href="https://tenderplan.ru/app?utm_source=email&utm_medium=button&utm_campaign=welcome"
             height="56px" width="290px">
             Перейти в Тендерплан
           </mj-button>
@@ -212,7 +212,7 @@
       <mj-section css-class="article-section" mj-class="article-section">
         <mj-group>
           <mj-column css-class="article-left-column" mj-class="article-left-column">
-            <mj-image width="32px" height="32px" src="https://i.ibb.co/GnKbKTt/search-icon.png" />
+            <mj-image width="32px" height="32px" src="https://i.ibb.co/J5btspz/search-icon.png" />
           </mj-column>
 
           <mj-column css-class="article-right-column" mj-class="article-right-column">
@@ -232,7 +232,7 @@
       <mj-section css-class="article-section" mj-class="article-section">
         <mj-group>
           <mj-column css-class="article-left-column" mj-class="article-left-column">
-            <mj-image width="23px" height="23px" src="https://i.ibb.co/WWtnGgD/plane-icon.png" />
+            <mj-image width="23px" height="23px" src="https://i.ibb.co/XLzCxym/plane-icon.png" />
           </mj-column>
 
           <mj-column css-class="article-right-column" mj-class="article-right-column">
@@ -252,7 +252,7 @@
       <mj-section css-class="article-section" mj-class="article-section">
         <mj-group>
           <mj-column css-class="article-left-column" mj-class="article-left-column">
-            <mj-image width="25px" height="25px" src="https://i.ibb.co/MBd6QK7/analytics-icon.png" />
+            <mj-image width="25px" height="25px" src="https://i.ibb.co/48y3nhx/analytics-icon.png" />
           </mj-column>
 
           <mj-column css-class="article-right-column" mj-class="article-right-column">
@@ -271,7 +271,7 @@
       <mj-section css-class="article-section article-section--last" mj-class="article-section" padding-bottom="26px">
         <mj-group>
           <mj-column css-class="article-left-column" mj-class="article-left-column">
-            <mj-image width="32px" height="32px" src="https://i.ibb.co/0KvYntQ/team-icon.png" />
+            <mj-image width="32px" height="32px" src="https://i.ibb.co/vVK8cxQ/team-icon.png" />
           </mj-column>
 
           <mj-column css-class="article-right-column" mj-class="article-right-column">

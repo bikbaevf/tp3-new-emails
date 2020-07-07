@@ -9,7 +9,7 @@
           <mj-text css-class="ya-zen-image">
             <a class="ya-zen-link" target="_blank" href="https://zen.yandex.ru/tenderplan">
               <div>
-                <img alt="ya-zen" src="https://i.ibb.co/hg0yMtK/ya-dzen.png" />
+                <img alt="ya-zen" src="https://i.ibb.co/QCnfwvW/ya-dzen.png" />
               </div>
             </a>
           </mj-text>
@@ -42,7 +42,7 @@
           <mj-column css-class="social-item" width="51px" padding-right="7px">
             <mj-text css-class="social-item-text">
               <a class="social-item-link" target="_blank" href="https://vk.com/tenderplan">
-                <img class="social-item-image" alt="vk" src="https://i.ibb.co/3v0Bh0F/vk.png" />
+                <img class="social-item-image" alt="vk" src="https://i.ibb.co/XsHnVvC/vk.png" />
               </a>
             </mj-text>
           </mj-column>
@@ -50,7 +50,7 @@
           <mj-column css-class="social-item" width="51px" padding-right="7px">
             <mj-text>
               <a class="social-item-link" target="_blank" href="https://www.facebook.com/tenderplan">
-                <img class="social-item-image" alt="facebook" src="https://i.ibb.co/ZT6Py31/facebook.png" />
+                <img class="social-item-image" alt="facebook" src="https://i.ibb.co/m5Z9ySW/facebook.png" />
               </a>
             </mj-text>
           </mj-column>
@@ -58,7 +58,7 @@
           <mj-column css-class="social-item" width="51px" padding-right="7px">
             <mj-text>
               <a class="social-item-link" target="_blank" href="https://www.instagram.com/tenderplan.ru/">
-                <img class="social-item-image" alt="instagram" src="https://i.ibb.co/853j13s/instagram.png" />
+                <img class="social-item-image" alt="instagram" src="https://i.ibb.co/Rb7H3yH/instagram.png" />
               </a>
             </mj-text>
           </mj-column>
@@ -66,7 +66,7 @@
           <mj-column css-class="social-item social-item--last" width="44px">
             <mj-text>
               <a class="social-item-link" target="_blank" href="https://www.youtube.com/channel/UC5ohzfKfpdI9O4k9iVexd1g/featured?view_as=subscriber">
-                <img class="social-item-image" alt="youtube" src="https://i.ibb.co/nBHGcP4/youtube.png" />
+                <img class="social-item-image" alt="youtube" src="https://i.ibb.co/zVSRF1J/youtube.png" />
               </a>
             </mj-text>
           </mj-column>

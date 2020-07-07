@@ -13,3 +13,20 @@ https://i.ibb.co/GnKbKTt/search-icon.png
 https://i.ibb.co/WWtnGgD/plane-icon.png
 https://i.ibb.co/MBd6QK7/analytics-icon.png
 https://i.ibb.co/0KvYntQ/team-icon.png
+
+// #2
+
+https://i.ibb.co/zxwVM3N/logo.png
+https://i.ibb.co/2PC268F/banner-1.png
+https://i.ibb.co/pdsL8my/banner-1-mobile.png
+https://i.ibb.co/7XyZw6x/banner-2.png
+https://i.ibb.co/wMXvfs4/banner-2-mobile.png
+https://i.ibb.co/J5btspz/search-icon.png
+https://i.ibb.co/XLzCxym/plane-icon.png
+https://i.ibb.co/48y3nhx/analytics-icon.png
+https://i.ibb.co/vVK8cxQ/team-icon.png
+https://i.ibb.co/QCnfwvW/ya-dzen.png
+https://i.ibb.co/XsHnVvC/vk.png
+https://i.ibb.co/m5Z9ySW/facebook.png
+https://i.ibb.co/Rb7H3yH/instagram.png
+https://i.ibb.co/zVSRF1J/youtube.png
