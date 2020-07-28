@@ -20,11 +20,18 @@
         .ignore-column {
           width: 355px !important;
         }
+
+        .greeting-column {
+          width: 540px !important;
+        }
     </mj-style>
 
 
     <mj-style>
         @media only screen and (max-width:500px) {
+            .greeting-column {
+                width: 100% !important;
+            }
           .greeting-title {
             padding-bottom: 15px !important;
           }
@@ -43,6 +50,16 @@
             line-height: 21px !important;
           }
           
+          }
+
+          @media only screen and (max-width:360px) {
+          .greeting-title div {
+            font-size: 17px !important;
+          }
+
+          .greeting-text div {
+            font-size: 14px !important;
+          }
           }
     </mj-style>
     <mj-title>
@@ -77,7 +94,7 @@
     <!-- GREETING -->
 
       <mj-section css-class="greeting-section" padding="28px 0">
-        <mj-column>
+        <mj-column css-class="greeting-column" width="540px">
           <mj-text css-class="greeting-title" padding-bottom="16px" align="center" font-weight="700" font-size="24px" line-height="28px">
             Здравствуйте, Александр Павлов.
           </mj-text>

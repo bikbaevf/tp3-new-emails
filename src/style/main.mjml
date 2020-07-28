@@ -4,7 +4,7 @@
             padding-top: 0 !important;
           }
           .wrapper>table>tbody>tr>td {
-            padding: 0 !important;
+            padding: 0 15px !important;
           }
           .mobile-hidden {
             display: none !important;
@@ -39,6 +39,12 @@
           .tp3-button a {
             width: 305px !important;
             padding: 13px 0 !important;
+          }
+        }
+
+        @media only screen and (max-width:360px) {
+          .wrapper>table>tbody>tr>td {
+            padding: 0 10px !important;
           }
         }
     </mj-style>

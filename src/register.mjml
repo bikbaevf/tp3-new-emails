@@ -7,6 +7,7 @@
       <mj-class name="article-title" font-weight="bold" font-size="16px" line-height="17px" color="#1F88E5" padding-bottom="7px" />
       <mj-class name="article-text" font-size="13px" line-height="20px" />
       <mj-class name="article-section" padding-left="30px" padding-bottom="24px" />
+      <mj-class name="article-group" width="460px" />
       <mj-class name="article-left-column" width="60px" />
       <mj-class name="article-right-column" width="400px" />
       <mj-all font-family="Arial, sans-serif" />
@@ -33,6 +34,10 @@
 
         .password-column-right {
           width: 156px !important;
+        }
+
+        .article-group {
+          width: 460px !important;
         }
 
         .article-left-column {
@@ -86,6 +91,9 @@
           .article-section--last>table>tbody>tr>td {
             padding-bottom: 42px !important;
           }
+          .article-group {
+            width: 325px !important;
+          }
           .article-left-column {
             width: 50px !important;
           }
@@ -107,7 +115,13 @@
         }
 
         @media only screen and (max-width:360px) {
+          .greeting-title {
+            font-size: 21px !important;
+          }
           .greeting-text div {
+            font-size: 12px !important;
+          }
+          .articles-title div {
             font-size: 13px !important;
           }
           .article-right-column {
@@ -123,7 +137,7 @@
     </mj-style>
 
     <mj-title>
-      Успешная регистрация
+      Вы успешно прошли регистрацию!
     </mj-title>
     <mj-preview>
       В ваш аккаунт уже поступают новые тендеры и вы можете начать участвовать и выигрывать прямо сейчас...
@@ -209,8 +223,8 @@
 
       <!-- ARTICLES -->
 
-      <mj-section css-class="article-section" mj-class="article-section">
-        <mj-group>
+      <mj-section css-class="article-section" mj-class="article-section" text-align="left">
+        <mj-group css-class="article-group" mj-class="article-group">
           <mj-column css-class="article-left-column" mj-class="article-left-column">
             <mj-image width="32px" height="32px" src="https://i.ibb.co/J5btspz/search-icon.png" />
           </mj-column>
@@ -229,8 +243,8 @@
         </mj-group>
       </mj-section>
 
-      <mj-section css-class="article-section" mj-class="article-section">
-        <mj-group>
+      <mj-section css-class="article-section" mj-class="article-section" text-align="left">
+        <mj-group css-class="article-group" mj-class="article-group">
           <mj-column css-class="article-left-column" mj-class="article-left-column">
             <mj-image width="23px" height="23px" src="https://i.ibb.co/XLzCxym/plane-icon.png" />
           </mj-column>
@@ -249,8 +263,8 @@
         </mj-group>
       </mj-section>
 
-      <mj-section css-class="article-section" mj-class="article-section">
-        <mj-group>
+      <mj-section css-class="article-section" mj-class="article-section" text-align="left">
+        <mj-group css-class="article-group" mj-class="article-group">
           <mj-column css-class="article-left-column" mj-class="article-left-column">
             <mj-image width="25px" height="25px" src="https://i.ibb.co/48y3nhx/analytics-icon.png" />
           </mj-column>
@@ -268,8 +282,8 @@
         </mj-group>
       </mj-section>
 
-      <mj-section css-class="article-section article-section--last" mj-class="article-section" padding-bottom="26px">
-        <mj-group>
+      <mj-section css-class="article-section article-section--last" mj-class="article-section" padding-bottom="26px" text-align="left">
+        <mj-group css-class="article-group" mj-class="article-group">
           <mj-column css-class="article-left-column" mj-class="article-left-column">
             <mj-image width="32px" height="32px" src="https://i.ibb.co/vVK8cxQ/team-icon.png" />
           </mj-column>

@@ -1,8 +1,8 @@
   <mj-style>
         @media only screen and (max-width:500px) {
           .footer-wrapper>table>tbody>tr>td {
-            padding: 0 !important;
-            padding-left: 35px !important;
+            padding: 0 15px !important;
+            padding-left: 50px !important;
           }
           .footer-wrapper,
           .footer-wrapper>table {
