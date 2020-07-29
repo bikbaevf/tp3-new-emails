@@ -1,27 +1,18 @@
 <mjml>
   <mj-head>
+    <mj-include path="./include/main.mjml" />
+
     <mj-attributes>
-      <mj-text padding="0" font-style="normal" font-weight="normal" color="#000000" />
-      <mj-image padding="0" />
-      <mj-section padding="0" />
       <mj-class name="article-title" font-weight="bold" font-size="16px" line-height="17px" color="#1F88E5" padding-bottom="7px" />
       <mj-class name="article-text" font-size="13px" line-height="20px" />
       <mj-class name="article-section" padding-left="30px" padding-bottom="24px" />
       <mj-class name="article-group" width="460px" />
       <mj-class name="article-left-column" width="60px" />
       <mj-class name="article-right-column" width="400px" />
-      <mj-all font-family="Arial, sans-serif" />
+      <mj-class name="tp3-button" border-radius="90px" />
     </mj-attributes>
 
-    <mj-breakpoint width="500px" />
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
-
-    <mj-include path="./style/inline-main.mjml" />
-    <mj-include path="./style/main.mjml" />
-    <mj-include path="./style/blocks/phone/phone-inline-style.mjml" />
-    <mj-include path="./style/blocks/phone/phone-style.mjml" />
-    <mj-include path="./style/blocks/footer/footer-inline-style.mjml" />
-    <mj-include path="./style/blocks/footer/footer-style.mjml" />
 
     <mj-style inline="inline">
         .password-group {
@@ -202,8 +193,7 @@
 
       <mj-section css-class="tp3-button-section" padding-bottom="40px">
         <mj-column>
-          <mj-button css-class="tp3-button reset-button" padding="0" line-height="24px" border-radius="90px" background-color="#6F61D3" color="#FFFFFF" font-weight="bold" font-size="20px" href="https://tenderplan.ru/app?utm_source=email&utm_medium=button&utm_campaign=welcome"
-            height="56px" width="290px">
+          <mj-button css-class="tp3-button reset-button" mj-class="tp3-button" href="https://tenderplan.ru/app?utm_source=email&utm_medium=button&utm_campaign=welcome">
             Перейти в Тендерплан
           </mj-button>
         </mj-column>
@@ -302,9 +292,9 @@
         </mj-group>
       </mj-section>
 
-    <mj-include path="./partials/phone.mjml" />
+    <mj-include path="./include/partials/phone.mjml" />
     </mj-wrapper>
 
-    <mj-include path="./partials/footer.mjml" />
+    <mj-include path="./include/partials/footer.mjml" />
   </mj-body>
 </mjml>

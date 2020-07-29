@@ -1,0 +1,166 @@
+<mjml>
+  <mj-head>
+    <mj-include path="./include/main.mjml" />
+
+    <mj-attributes>
+       <mj-class name="padding-bottom" padding-bottom="8px" />
+       <mj-class name="user-data__text" font-size="14px" line-height="21px" color="#394D72;" />
+       <mj-class name="tp3-button" width="350px" align="left" href="https://tenderplan.ru/partners/list" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+        .title-column {
+          width: 540px !important;
+        }
+
+        .user-data__text--displayName, .user-data__text--phone {
+            font-weight: bold !important;
+            color: #000000 !important;
+        }
+
+        .user-data__text--email a {
+            color: #0076E2 !important;
+        }
+
+        .user-data__text--date {
+            color: #000000 !important;
+        }
+    </mj-style>
+
+    <mj-style>
+        @media only screen and (max-width:500px) {
+            .logo-section>table>tbody>tr>td {
+                padding: 30px 0 45px !important;
+            }
+            .padding-bottom >div {
+                padding-bottom: 12px !important;
+            }
+            .title-column {
+                width: 100% !important;
+            }
+            .tp3-button-section>table>tbody>tr>td {
+                padding: 28px 0 48px !important;
+                text-align: center !important;
+            }
+            .tp3-button-column {
+                width: 300px !important;
+            }
+            .tp3-button a {
+                font-size: 18px !important;
+                line-height: 21px !important;
+                width: 300px !important;
+                padding: 15px 0 !important;
+            }
+            .phone-section>table>tbody>tr>td {
+                padding: 0 0 24px !important;
+            }
+            .footer-wrapper>table>tbody>tr>td {
+                padding-left: 15px !important;
+          }
+        }
+
+        @media only screen and (max-width:360px) {
+        }
+    </mj-style>
+
+    <mj-title>
+        Новая регистрация по партнерской программе
+    </mj-title>
+    <mj-preview>
+        По вашей реферальной ссылке зарегистрировался новый пользователь <название организации>
+    </mj-preview>
+  </mj-head>
+
+
+  <mj-body css-class="body" width="620px" background-color="#F1F4F9">
+    <mj-wrapper css-class="wrapper" padding="0 40px" background-color="#FFFFFF">
+
+      <!-- LOGO -->
+
+      <mj-section css-class="logo-section" padding="50px 0 32px">
+        <mj-column>
+          <mj-image css-class="logo" padding="0" align="left" width="171px" src="https://i.ibb.co/zxwVM3N/logo.png" href="https://tenderplan.ru/?utm_source=email&utm_medium=logo&utm_campaign=welcome" />
+        </mj-column>
+      </mj-section>
+
+      <!-- TITLE -->
+
+    <mj-section padding-bottom="15px">
+        <mj-column css-class="title-column" width="540px">
+            <mj-text
+                font-weight="bold"
+                font-size="22px"
+                line-height="30px"
+            >
+                По вашей реферальной ссылке зарегистрировался пользователь
+            </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- USER DATA -->
+
+       <mj-section padding="18px 20px" background-color="#F1F4F9" border-radius="6px">
+        <mj-column>
+            <mj-text
+                css-class="padding-bottom"
+                mj-class="padding-bottom"
+                font-weight="bold"
+                font-size="16px"
+                line-height="24px"
+            >
+                Федеральное государственное унитарное предприятие "Главный научно-исследовательский вычислительный центр" Управления делами Президента Российской Федерации
+            </mj-text>
+
+                <mj-text
+                    css-class="padding-bottom"
+                 mj-class="padding-bottom user-data__text"
+                
+            >
+                Контактное лицо: <span class="user-data__text--displayName">Сергей Иванович</span>
+            </mj-text>
+
+            <mj-text
+
+                    css-class="padding-bottom"
+
+                mj-class="padding-bottom user-data__text"                
+            >
+                Телефон: <span class="user-data__text--phone">+7 906 243‒45‒54</span>
+            </mj-text>
+
+            <mj-text
+                    css-class="padding-bottom"
+                mj-class="padding-bottom user-data__text"                 
+            >
+                Эл. Почта: <span class="user-data__text--email">
+                <a href = "mailto: Ivaffeygb2444g1@gmail.com">Ivaffeygb2444g1@gmail.com</a></span>
+            </mj-text>
+
+
+            <mj-text
+                mj-class="user-data__text"                 
+            >
+                Дата регистрации: <span class="user-data__text--date">27.06.2020 в 12:00</span>
+            </mj-text>
+
+
+        </mj-column>
+      </mj-section>
+
+        <!-- BUTTON -->
+
+    <mj-section css-class="tp3-button-section" padding="32px 0 58px" text-align="left">
+        <mj-column css-class="tp3-button-column" width="350px">
+          <mj-button css-class="tp3-button reset-button" mj-class="tp3-button" >
+            Перейти в кабинет партнера
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+        <mj-include path="./include/partials/phone.mjml" />
+    </mj-wrapper>
+
+    <mj-include path="./include/partials/footer-browser.mjml" />
+  </mj-body>
+</mjml>

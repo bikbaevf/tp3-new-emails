@@ -83,12 +83,12 @@
         </mj-column>
       </mj-section>
 
-      <!-- UNSUBSCRIBE -->
+      <!-- FOOTET-BOTTOM -->
 
-      <mj-section css-class="unsubscribe-section" padding-bottom="24px">
+      <mj-section css-class="footer-bottom" padding-bottom="24px">
         <mj-column>
-          <mj-button css-class="unsubscribe-button reset-button" padding="0px" background-color="transparent" href="#" font-size="11px" line-height="13px" color="#1F88E5">
-            Больше не получать уведомления.
+          <mj-button css-class="footer-bottom-link reset-button" mj-class="footer-bottom-link">
+            Больше не получать уведомления
           </mj-button>
         </mj-column>
       </mj-section>

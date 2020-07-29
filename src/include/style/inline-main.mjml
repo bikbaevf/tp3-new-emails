@@ -9,7 +9,7 @@
         }
 
         .reset-button a {
-          padding: 0 !important;
+          padding: 0!important;
         }
 
         .mobile-show {
@@ -17,7 +17,7 @@
         }
 
         .tp3-button a {
-          width: 290px !important;
-          padding: 16px 0 !important;
+          width: 100% !important;
+          padding: 17px 0 !important;
         }
     </mj-style>

@@ -1,0 +1,17 @@
+ <mj-attributes>
+     <mj-text padding="0" font-style="normal" font-weight="normal" color="#000000" />
+     <mj-image padding="0" />
+     <mj-section padding="0" />
+    <mj-button padding="0" />
+    <mj-class 
+        name="tp3-button" font-size="20px" line-height="23px" 
+        border-radius="123px" background-color="#6F61D3" 
+        color="#FFFFFF" font-weight="bold" height="56px" 
+        width="290px" 
+    />
+    <mj-class 
+        name="footer-bottom-link" background-color="transparent" 
+        href="#" font-size="11px" line-height="13px" color="#1F88E5"
+    />
+    <mj-all font-family="Arial, sans-serif" />
+</mj-attributes>

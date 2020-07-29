@@ -1,0 +1,9 @@
+<mj-include path="./attributes.mjml" />
+<mj-include path="./breakpoint.mjml" />
+
+<mj-include path="./style/inline-main.mjml" />
+<mj-include path="./style/main.mjml" />
+<mj-include path="./style/blocks/phone/phone-inline-style.mjml" />
+<mj-include path="./style/blocks/phone/phone-style.mjml" />
+<mj-include path="./style/blocks/footer/footer-inline-style.mjml" />
+<mj-include path="./style/blocks/footer/footer-style.mjml" />

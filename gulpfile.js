@@ -24,7 +24,7 @@ function copy() {
 
 function webserver() {
   server.init({
-    server: "dist/",
+    server: paths.dist,
     notify: false,
     open: true,
     cors: true,
@@ -48,8 +48,7 @@ function refresh(done) {
 }
 
 const build = gulp.series(clean, copy, mjml);
-const webserverTask = gulp.series(build, webserver);
-const def = gulp.series(clean, copy, webserverTask);
+const def = gulp.series(build, webserver);
 
 gulp.task("build", build);
 gulp.task("default", def);

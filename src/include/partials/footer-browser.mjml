@@ -1,0 +1,102 @@
+<!-- FOOTER -->
+
+    <mj-wrapper css-class="footer-wrapper" background-color="#F1F4F9" padding="0">
+
+      <!-- YA-ZEN -->
+
+      <mj-section css-class="ya-zen-section" padding="11px 0 16px">
+        <mj-column css-class="ya-zen-column-left" width="153px" padding-top="3px" padding-right="16px">
+          <mj-text css-class="ya-zen-image">
+            <a class="ya-zen-link" target="_blank" href="https://zen.yandex.ru/tenderplan">
+              <div>
+                <img alt="ya-zen" src="https://i.ibb.co/QCnfwvW/ya-dzen.png" />
+              </div>
+            </a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column css-class="ya-zen-column-right" width="215px">
+          <mj-text font-size="11px" line-height="15px" color="#8996AC">
+            <a class="mobile-hidden" href="https://zen.yandex.ru/tenderplan/" target="_blank" style="color: #8996AC; text-decoration: none;">
+            Читайте обучающие статьи по тендерам и разборы кейсов реальных поставщиков
+        </a>
+            <div class="desktop-hidden mobile-show">
+              Читайте обучающие статьи, разборы <br/> кейсов и другие полезные материалы.
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- DIVIDER -->
+
+      <mj-section css-class="divider-section">
+        <mj-column>
+          <mj-divider padding="0" border-width="1px" border-color="#D3DCE9" />
+        </mj-column>
+      </mj-section>
+
+      <!-- SOCIAL -->
+
+      <mj-section css-class="social-section" padding="6px 0">
+        <mj-group css-class="social-wrapper" width="200px">
+          <mj-column css-class="social-item" width="51px" padding-right="7px">
+            <mj-text css-class="social-item-text">
+              <a class="social-item-link" target="_blank" href="https://vk.com/tenderplan">
+                <img class="social-item-image" alt="vk" src="https://i.ibb.co/XsHnVvC/vk.png" />
+              </a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column css-class="social-item" width="51px" padding-right="7px">
+            <mj-text>
+              <a class="social-item-link" target="_blank" href="https://www.facebook.com/tenderplan">
+                <img class="social-item-image" alt="facebook" src="https://i.ibb.co/m5Z9ySW/facebook.png" />
+              </a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column css-class="social-item" width="51px" padding-right="7px">
+            <mj-text>
+              <a class="social-item-link" target="_blank" href="https://www.instagram.com/tenderplan.ru/">
+                <img class="social-item-image" alt="instagram" src="https://i.ibb.co/Rb7H3yH/instagram.png" />
+              </a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column css-class="social-item social-item--last" width="44px">
+            <mj-text>
+              <a class="social-item-link" target="_blank" href="https://www.youtube.com/channel/UC5ohzfKfpdI9O4k9iVexd1g/featured?view_as=subscriber">
+                <img class="social-item-image" alt="youtube" src="https://i.ibb.co/zVSRF1J/youtube.png" />
+              </a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- MESSAGE ABOUT NOTIFICATIONS -->
+
+      <mj-section css-class="notifications-section" padding-bottom="11px">
+        <mj-column width="340px">
+          <mj-text css-class="notifications-text" font-size="11px" line-height="14px" color="#9CA8BE" align="center">
+            Вы получили это сообщение, потому что <br class="desktop-hidden mobile-show" /> зарегистрированы <br class="mobile-hidden" /> в системе Тендерплан <br class="desktop-hidden mobile-show" /> и подписаны на получение уведомлений.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- FOOTET-BOTTOM -->
+
+      <mj-section css-class="footer-bottom" padding-bottom="24px">
+        <mj-column width="250px" css-class="footer-bottom__column footer-bottom__column--left" padding-right="30px">
+          <mj-button css-class="footer-bottom-link reset-button" mj-class="footer-bottom-link" align="right">
+            Больше не получать уведомления
+          </mj-button>
+        </mj-column>
+
+        <mj-column width="250px" css-class="footer-bottom__column" padding-left="30px">
+          <mj-button css-class="footer-bottom-link reset-button" mj-class="footer-bottom-link" align="left">
+            Открыть письмо в браузере
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>

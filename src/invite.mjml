@@ -1,21 +1,12 @@
 <mjml>
   <mj-head>
+    <mj-include path="./include/main.mjml" />
+
     <mj-attributes>
-      <mj-text padding="0" font-style="normal" font-weight="normal" color="#000000" />
-      <mj-image padding="0" />
-      <mj-section padding="0" />
-      <mj-all font-family="Arial, sans-serif" />
+      <mj-class name="tp3-button" border-radius="90px" />
     </mj-attributes>
 
-    <mj-breakpoint width="500px" />
-
-    <mj-include path="./style/inline-main.mjml" />
-    <mj-include path="./style/main.mjml" />
-    <mj-include path="./style/blocks/phone/phone-inline-style.mjml" />
-    <mj-include path="./style/blocks/phone/phone-style.mjml" />
-    <mj-include path="./style/blocks/footer/footer-inline-style.mjml" />
-    <mj-include path="./style/blocks/footer/footer-style.mjml" />
-
+ 
     <mj-style inline="inline">
         .ignore-column {
           width: 355px !important;
@@ -110,8 +101,7 @@
 
       <mj-section css-class="tp3-button-section" padding-bottom="45px">
         <mj-column>
-          <mj-button css-class="tp3-button reset-button" padding="0" line-height="24px" border-radius="90px" background-color="#6F61D3" color="#FFFFFF" font-weight="bold" font-size="20px" href="#"
-            height="56px" width="290px">
+          <mj-button css-class="tp3-button reset-button" mj-class="tp3-button" href="#">
             Принять приглашение
           </mj-button>
         </mj-column>
@@ -122,15 +112,15 @@
         <mj-section css-class="ignore-section" padding-bottom="10px">
         <mj-column css-class="ignore-column" width="355px" >
           <mj-text css-class="ignore-text" font-size="16px" color="#394D72" line-height="24px" align="center">
-         Если вы не ожидаете приглашения, просто проигнорируйте это письмо.
+            Если вы не ожидаете приглашения, просто проигнорируйте это письмо.
           </mj-text>
         </mj-column>
       </mj-section>
 
-    <mj-include path="./partials/phone.mjml" />
+    <mj-include path="./include/partials/phone.mjml" />
     </mj-wrapper>
 
-    <mj-include path="./partials/footer.mjml" />
+    <mj-include path="./include/partials/footer.mjml" />
 
   </mj-body>
 </mjml>

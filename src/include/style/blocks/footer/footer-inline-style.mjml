@@ -24,4 +24,8 @@
           height: 44px !important;
           display: block !important;
         }
+
+        .footer-bottom__column {
+          width: 250px !important;
+        }
     </mj-style>

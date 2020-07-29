@@ -1,0 +1,56 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" font-style="normal" font-weight="normal" color="#000000" />
+      <mj-image padding="0" />
+      <mj-section padding="0" />
+      <mj-all font-family="Arial, sans-serif" />
+    </mj-attributes>
+
+    <mj-breakpoint width="500px" />
+
+    <mj-include path="./style/inline-main.mjml" />
+    <mj-include path="./style/main.mjml" />
+    <mj-include path="./style/blocks/phone/phone-inline-style.mjml" />
+    <mj-include path="./style/blocks/phone/phone-style.mjml" />
+    <mj-include path="./style/blocks/footer/footer-inline-style.mjml" />
+    <mj-include path="./style/blocks/footer/footer-style.mjml" />
+
+    <mj-style inline="inline">
+
+    </mj-style>
+
+    <mj-style>
+        @media only screen and (max-width:500px) {
+        }
+
+        @media only screen and (max-width:360px) {
+        }
+    </mj-style>
+
+    <mj-title>
+      Title
+    </mj-title>
+    <mj-preview>
+        Preview
+    </mj-preview>
+  </mj-head>
+
+
+  <mj-body css-class="body" width="580px" background-color="#F1F4F9">
+    <mj-wrapper css-class="wrapper" padding="0 20px" background-color="#FFFFFF">
+
+      <!-- LOGO -->
+
+      <mj-section padding="12px 0">
+        <mj-column>
+          <mj-image css-class="logo" padding="0" align="left" width="171px" src="https://i.ibb.co/zxwVM3N/logo.png" href="https://tenderplan.ru/?utm_source=email&utm_medium=logo&utm_campaign=welcome" />
+        </mj-column>
+      </mj-section>
+
+        <mj-include path="./partials/phone.mjml" />
+    </mj-wrapper>
+
+    <mj-include path="./partials/footer.mjml" />
+  </mj-body>
+</mjml>
