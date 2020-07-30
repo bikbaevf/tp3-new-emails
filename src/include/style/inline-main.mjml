@@ -20,4 +20,72 @@
           width: 100% !important;
           padding: 17px 0 !important;
         }
+
+        .mark {
+            padding-right: 20px !important;
+            padding-bottom: 10px !important;
+            display: inline-block !important;  
+        }
+
+        .mark-shape {
+            display: inline-block !important;
+            width: 12px !important;
+            height: 18px !important;
+            border-radius: 2px !important;
+            vertical-align: middle !important;
+        }
+
+        .mark-text {
+            padding-left: 10px !important;
+            vertical-align: middle !important;
+            display: inline-block !important;  
+        }
+
+        .tender-column--left {
+            width: 12px !important;
+            vertical-align: top !important; 
+            height: 1px !important;
+        }
+
+        .tender-column--right {
+            text-align: left !important;
+            font-weight: normal !important;
+        }
+
+        .tender-content {
+            padding: 16px !important;
+            padding-bottom: 10px !important;
+            border: 1px solid #D2DBE7 !important;
+            border-left: none !important;
+            border-radius: 0 3px 3px 0 !important;
+            font-size: 14px !important;
+            line-height: 21px !important;
+        }
+
+        .tender-info {
+            font-weight: bold !important;
+            color: #394D72 !important;
+        }
+
+        .tender-info-item {
+            display: inline-block !important;  
+            padding-right: 23px !important;
+            padding-bottom: 6px !important;
+        }
+
+        .tender-info-item--last {
+            padding-right: 0 !important;
+        }
+
+        .red-color {
+            color: #D21D4E;
+        }
+
+        .tender-user-image {
+            display: inline-block !important;
+            width: 28px !important;
+            height: 28px !important;
+            vertical-align: middle !important;
+            padding-right: 10px !important;
+        }
     </mj-style>

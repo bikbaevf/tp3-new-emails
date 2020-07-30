@@ -87,11 +87,7 @@
 
     <mj-section padding-bottom="15px">
         <mj-column css-class="title-column" width="540px">
-            <mj-text
-                font-weight="bold"
-                font-size="22px"
-                line-height="30px"
-            >
+            <mj-text mj-class="title">
                 По вашей реферальной ссылке зарегистрировался пользователь
             </mj-text>
         </mj-column>
