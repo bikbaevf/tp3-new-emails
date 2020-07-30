@@ -3,6 +3,7 @@
      <mj-image padding="0" />
      <mj-section padding="0" />
     <mj-button padding="0" />
+    <mj-table padding="0" />
     <mj-class name="title" font-weight="bold" font-size="22px" line-height="30px" />
     <mj-class 
         name="tp3-button" font-size="20px" line-height="23px" 

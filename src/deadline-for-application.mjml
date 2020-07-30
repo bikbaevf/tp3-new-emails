@@ -3,8 +3,7 @@
     <mj-include path="./include/main.mjml" />
 
     <mj-attributes>
-      <mj-table padding="0" />
-      <mj-class name="tp3-button" width="350px" align="left" href="#" />
+      <mj-class name="tp3-button" width="300px" align="left" href="#" />
     </mj-attributes>
 
      <mj-style inline="inline">
@@ -257,7 +256,7 @@
       <!-- BUTTON -->
 
       <mj-section css-class="tp3-button-section" padding="7px 0 58px" text-align="left">
-        <mj-column css-class="tp3-button-column" width="350px">
+        <mj-column css-class="tp3-button-column" width="300px">
           <mj-button css-class="tp3-button reset-button" mj-class="tp3-button">
             Перейти в Тендерплан
           </mj-button>
