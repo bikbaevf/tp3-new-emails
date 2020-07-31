@@ -175,7 +175,7 @@
 
       <mj-section padding="7px 0 10px">
         <mj-column>
-          <mj-text font-weight="bold" font-size="18px" line-height="18px" color="#394D72" padding-top="1px">
+          <mj-text>
             <div class="mark">
               <span class="mark-shape" style="background-color: #2F77FF !important;"></span><span class="mark-text">Интересно</span>
             </div>

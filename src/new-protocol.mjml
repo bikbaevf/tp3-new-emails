@@ -11,20 +11,12 @@
             width: 500px !important;
         }
 
-        .tender-content {
-            border-radius: 0 3px 0 0 !important;
-        }
-
-        .change {
-            padding: 8px 10px !important;
-            font-size: 14px !important;
-            line-height: 21px !important;
-            background-color: #DCEED6 !important;
-            border-radius: 0px 0px 3px 3px !important;
-        }
-
-        .change-date {
-            font-weight: bold !important;
+        .tender-protocol {
+            font-size: 14px !important; 
+            line-height: 21px !important; 
+            text-align: right !important; 
+            color: #394D72 !important; 
+            padding-top: 12px !important;
         }
     </mj-style>
 
@@ -33,9 +25,15 @@
             .title-column {
                 width: 100% !important;
             }
-            
+
+            .tender-protocol {
+                font-size: 13px !important; 
+                line-height: 19px !important; 
+                padding-top: 8px !important;
+            }
+
             .tp3-button-section>table>tbody>tr>td {
-                padding: 28px 0 48px !important;
+                padding: 0 0 48px !important;
                 text-align: center !important;
             }
             
@@ -49,13 +47,21 @@
                 padding: 15px 0 !important;
             }
         }
-    </mj-style>
 
-    <mj-title>
+        @media only screen and (max-width:360px) {
+            .tender-protocol {
+                font-size: 11px !important; 
+                line-height: 15px !important; 
+            }
+        }
+
+    </mj-style>
         Дайджест
+    <mj-title>
+        
     </mj-title>
     <mj-preview>
-        Появились изменения в извещениях
+        Появились новые протоколы
     </mj-preview>
   </mj-head>
 
@@ -71,18 +77,17 @@
         </mj-column>
       </mj-section>
 
-
     <!-- TITLE -->
 
       <mj-section padding-bottom="8px">
         <mj-column css-class="title-column" width="500px">
           <mj-text mj-class="title">
-            Изменения в извещениях
+            Появились новые протоколы
           </mj-text>
         </mj-column>
       </mj-section>
 
-      
+
       <!-- MARK -->
 
       <mj-section padding="7px 0 10px">
@@ -95,15 +100,14 @@
         </mj-column>
       </mj-section>
 
+           <!-- TENDER -->
 
-        <!-- TENDER -->
-
-      <mj-section padding-bottom="25px">
+    <mj-section padding-bottom="25px">
         <mj-column>
           <mj-table>
             <tr>
               <th class="tender-column--left">
-                <div style="border-radius: 3px 0 0 0 !important; background-color: #2F77FF !important; height: 100% !important;"></div>
+                <div style="border-radius: 3px 0 0 3px !important; background-color: #2F77FF !important; height: 100% !important;"></div>
               </th>
               <th class="tender-column--right">
                 <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
@@ -120,9 +124,9 @@
                       <span class="tender-info-item">44 ФЗ</span>
                       <span class="tender-info-item">Ульяновская обл.</span>
                       <span class="tender-info-item tender-info-item--last">
-                        <img class="tender-user-image" src="https://i.ibb.co/RPCnsRW/user-image.png" />
-                        Константин Константинопольский
-                        </span>
+                                                <img class="tender-user-image" src="https://i.ibb.co/RPCnsRW/user-image.png" />
+                                                Константин Константинопольский
+                                            </span>
                     </div>
                   </div>
                 </a>
@@ -130,18 +134,61 @@
             </tr>
             <tr>
                 <td colspan="2" >
-                    <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
-                        <div class="change">
-                            <span class="change-date">Изменено 24.06.2020 в 05:20</span> и изложено в прилагаемой документации
-                        </div>
-                    </a>
+                    <div class="tender-protocol">
+                        Протокол 338300007820000092-2 от 27.05.2020 00:50
+                    </div>
                 </td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
 
-    <!-- MARK -->
+          <!-- TENDER -->
+
+
+      <mj-section padding-bottom="25px">
+        <mj-column>
+          <mj-table>
+            <tr>
+              <th class="tender-column--left">
+                <div style="border-radius: 3px 0 0 3px !important; background-color: #2F77FF !important; height: 100% !important;"></div>
+              </th>
+              <th class="tender-column--right">
+                <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
+                  <div class="tender-content">
+                    <div style="padding-bottom:8px;">
+                      Выполнение работ по капитальному ремонту общего имущества многоквартирных домов Новосибирской области: Карасукский район г. Карасук, ул. Радищева, 4 (ТС, ВО); Карасукский район г. Карасук,
+                    </div>
+
+                    <div class="tender-info">
+                      <span class="tender-info-item">ЭА</span>
+                      <span class="tender-info-item">22.06.2020</span>
+                      <span class="tender-info-item red-color">Остался 9 дней</span>
+                      <span class="tender-info-item">2 124 699 ₽</span>
+                      <span class="tender-info-item">44 ФЗ</span>
+                      <span class="tender-info-item">Ульяновская обл.</span>
+                      <span class="tender-info-item tender-info-item--last">
+                                                <img class="tender-user-image" src="https://i.ibb.co/RPCnsRW/user-image.png" />
+                                                Владимир Нечаев
+                                            </span>
+                    </div>
+                  </div>
+                </a>
+              </th>
+            </tr>
+
+            <tr>
+                <td colspan="2" >
+                    <div class="tender-protocol">
+                        Протокол 338300007820000092-2 от 27.05.2020 00:50
+                    </div>
+                </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+            <!-- MARK -->
 
       <mj-section padding="7px 0 10px">
         <mj-column>
@@ -154,20 +201,19 @@
       </mj-section>
 
 
-        <!-- TENDER -->
 
       <mj-section padding-bottom="25px">
         <mj-column>
           <mj-table>
             <tr>
               <th class="tender-column--left">
-                <div style="border-radius: 3px 0 0 0 !important; background-color: #FCA71B !important; height: 100% !important;"></div>
+                <div style="border-radius: 3px 0 0 3px !important; background-color: #FCA71B !important; height: 100% !important;"></div>
               </th>
               <th class="tender-column--right">
                 <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
                   <div class="tender-content">
                     <div style="padding-bottom:8px;">
-                        Оказание услуг и (или) выполнение работ по капитальному ремонту общего имущества многоквартирных домов, расположенных на территории города Ульяновска Ульяновской области
+                      Оказание услуг и (или) выполнение работ по капитальному ремонту общего имущества многоквартирных домов, расположенных на территории города Ульяновска Ульяновской области
                     </div>
 
                     <div class="tender-info">
@@ -182,20 +228,22 @@
                 </a>
               </th>
             </tr>
+
             <tr>
                 <td colspan="2" >
-                    <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
-                        <div class="change">
-                            <span class="change-date">Изменено 03.04.2020 в 03:22</span> – Внесение изменений в документацию об электронном аукционе во исполнение предписания УФАС по Ленинградской области
-                        </div>
-                    </a>
+                    <div class="tender-protocol">
+                        Протокол 338300007820000095-2 от 26.05.2020 00:50
+                    </div>
                 </td>
             </tr>
+
+
+
           </mj-table>
         </mj-column>
       </mj-section>
 
-        <!-- BUTTON -->
+      <!-- BUTTON -->
 
       <mj-section css-class="tp3-button-section" padding="7px 0 58px" text-align="left">
         <mj-column css-class="tp3-button-column" width="300px">
@@ -204,6 +252,7 @@
           </mj-button>
         </mj-column>
       </mj-section>
+
 
         <mj-include path="./include/partials/phone.mjml" />
     </mj-wrapper>

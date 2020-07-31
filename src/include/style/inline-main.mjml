@@ -25,6 +25,10 @@
             padding-right: 20px !important;
             padding-bottom: 10px !important;
             display: inline-block !important;  
+            font-weight: bold !important;
+            font-size: 18px !important;
+            line-height: 18px !important;
+            color: #394D72 !important;
         }
 
         .mark-shape {
