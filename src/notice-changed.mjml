@@ -49,9 +49,6 @@
                 padding: 15px 0 !important;
             }
         }
-
-        @media only screen and (max-width:360px) {
-        }
     </mj-style>
 
     <mj-title>
