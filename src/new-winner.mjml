@@ -207,9 +207,11 @@
                       <span class="tender-info-item">44 ФЗ</span>
                       <span class="tender-info-item">Ульяновская обл.</span>
                       <span class="tender-info-item tender-info-item--last">
-                                                <img class="tender-user-image" src="https://i.ibb.co/RPCnsRW/user-image.png" />
-                                                Константин Константинопольский
-                                            </span>
+                            <span class="tender-user-image">
+                                <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
+                            </span>  
+                            <span class="tender-user-name">Константин Константинопольский</span>
+                      </span>
                     </div>
                   </div>
                 </a>

@@ -86,10 +86,16 @@
         }
 
         .tender-user-image {
-            display: inline-block !important;
-            width: 28px !important;
-            height: 28px !important;
-            vertical-align: middle !important;
-            padding-right: 10px !important;
+            vertical-align: middle !important; 
+            display: inline-block !important; 
+            width: 28px !important; 
+            height: 28px !important; 
+            border-radius: 50% !important; 
+            overflow: hidden !important;
+        }
+
+        .tender-user-name {
+            display: inline-block !important; 
+            padding-left: 5px !important;
         }
     </mj-style>

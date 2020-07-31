@@ -3,7 +3,7 @@
     <mj-include path="./include/main.mjml" />
 
     <mj-attributes>
-      <mj-class name="tp3-button" width="300px" align="left" href="#" />
+      <mj-class name="tp3-button" width="325px" align="left" href="#" />
     </mj-attributes>
 
     <mj-style inline="inline">
@@ -11,20 +11,40 @@
             width: 500px !important;
         }
 
-        .tender-content {
-            border-radius: 0 3px 0 0 !important;
+        .comment-column--left {
+            width: 50px !important;
         }
 
-        .change {
-            padding: 8px 10px !important;
+        .comment-image {
+            width: 50px !important; 
+            height: 50px !important; 
+            border-radius: 50% !important; 
+            overflow: hidden !important;
+        }
+
+        .comment-column--right {
+            padding-left: 10px !important;
+        }
+
+        .comment-head {
+            font-weight: bold !important;
+            font-size: 16px !important;
+            line-height: 24px !important;
+            color: #394D72 !important;
+
+        }
+
+        .comment-date {
+            font-weight: normal !important;
             font-size: 14px !important;
             line-height: 21px !important;
-            background-color: #DCEED6 !important;
-            border-radius: 0px 0px 3px 3px !important;
+            color: rgba(57, 77, 114, 0.5) !important;
+
         }
 
-        .change-date {
-            font-weight: bold !important;
+        .comment-body {
+            font-size: 14px !important;
+            line-height: 21px !important;
         }
     </mj-style>
 
@@ -33,9 +53,18 @@
             .title-column {
                 width: 100% !important;
             }
-            
+
+            .comment-section>table>tbody>tr>td, .tender-section>table>tbody>tr>td {
+                padding-bottom: 15px !important;
+            }
+
             .tp3-button-section>table>tbody>tr>td {
-                padding: 28px 0 48px !important;
+                padding: 0 0 48px !important;
+                text-align: center !important;
+            }
+
+            .tp3-button-section>table>tbody>tr>td {
+                padding: 0 0 48px !important;
                 text-align: center !important;
             }
             
@@ -52,10 +81,10 @@
     </mj-style>
 
     <mj-title>
-        Дайджест
+        Новый комментарий в извещении
     </mj-title>
     <mj-preview>
-        Появились изменения в извещениях
+        Пользователь <Имя пользователя> оставил комментарий в извещении
     </mj-preview>
   </mj-head>
 
@@ -71,39 +100,45 @@
         </mj-column>
       </mj-section>
 
-
-    <!-- TITLE -->
+      <!-- TITLE -->
 
       <mj-section padding-bottom="8px">
         <mj-column css-class="title-column" width="500px">
           <mj-text mj-class="title">
-            Изменения в извещениях
+            Новый комментарий <br class="mobile-show"/> в извещении
           </mj-text>
         </mj-column>
       </mj-section>
 
-      
-      <!-- MARK -->
+
+           <!-- MARK -->
 
       <mj-section padding="7px 0 10px">
         <mj-column>
           <mj-text>
             <div class="mark">
-              <span class="mark-shape" style="background-color: #2F77FF !important;"></span><span class="mark-text">Интересно</span>
+              <span class="mark-shape" style="background-color: #D21D4E !important;"></span><span class="mark-text">Интересно</span>
+            </div>
+            <div class="mark">
+              <span class="mark-shape" style="background-color: #2F77FF !important;"></span><span class="mark-text">Участвуем</span>
+            </div>
+            <div class="mark">
+              <span class="mark-shape" style="background-color: #37B673 !important;"></span><span class="mark-text">Готовим документы</span>
             </div>
           </mj-text>
         </mj-column>
       </mj-section>
 
+      <!-- TENDER -->
 
-        <!-- TENDER -->
-
-      <mj-section padding-bottom="25px">
+      <mj-section css-class="tender-section" padding-bottom="20px">
         <mj-column>
           <mj-table>
             <tr>
               <th class="tender-column--left">
-                <div style="border-radius: 3px 0 0 0 !important; background-color: #2F77FF !important; height: 100% !important;"></div>
+                <div style="border-radius: 3px 0 0 0 !important; background-color: #D21D4E !important; height: 33.3% !important;"></div>
+                <div style="background-color: #2F77FF !important; height: 33.3% !important;"></div>
+                <div style="border-radius: 0 0 0 3px !important; background-color: #37B673 !important; height: 33.3% !important;"></div>
               </th>
               <th class="tender-column--right">
                 <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
@@ -130,82 +165,45 @@
                 </a>
               </th>
             </tr>
-            <tr>
-                <td colspan="2" >
-                    <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
-                        <div class="change">
-                            <span class="change-date">Изменено 24.06.2020 в 05:20</span> и изложено в прилагаемой документации
-                        </div>
-                    </a>
-                </td>
-            </tr>
           </mj-table>
         </mj-column>
       </mj-section>
 
-    <!-- MARK -->
+           <!-- COMMENT -->
 
-      <mj-section padding="7px 0 10px">
-        <mj-column>
-          <mj-text>
-            <div class="mark">
-              <span class="mark-shape" style="background-color: #FCA71B !important;"></span><span class="mark-text">На согласовании</span>
-            </div>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-
-        <!-- TENDER -->
-
-      <mj-section padding-bottom="25px">
+      <mj-section css-class="comment-section" padding-bottom="25px">
         <mj-column>
           <mj-table>
-            <tr>
-              <th class="tender-column--left">
-                <div style="border-radius: 3px 0 0 0 !important; background-color: #FCA71B !important; height: 100% !important;"></div>
-              </th>
-              <th class="tender-column--right">
-                <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
-                  <div class="tender-content">
-                    <div style="padding-bottom:8px;">
-                        Оказание услуг и (или) выполнение работ по капитальному ремонту общего имущества многоквартирных домов, расположенных на территории города Ульяновска Ульяновской области
-                    </div>
-
-                    <div class="tender-info">
-                      <span class="tender-info-item">ЭА</span>
-                      <span class="tender-info-item">26.06.2020</span>
-                      <span class="tender-info-item red-color">Остался 2 дня</span>
-                      <span class="tender-info-item">1 524 500 ₽</span>
-                      <span class="tender-info-item">44 ФЗ</span>
-                      <span class="tender-info-item">Ульяновская обл.</span>
-                    </div>
-                  </div>
-                </a>
-              </th>
-            </tr>
-            <tr>
-                <td colspan="2" >
-                    <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
-                        <div class="change">
-                            <span class="change-date">Изменено 03.04.2020 в 03:22</span> – Внесение изменений в документацию об электронном аукционе во исполнение предписания УФАС по Ленинградской области
+            <tbody style="vertical-align: top !important;">
+                <tr>
+                    <td class="comment-column--left">
+                        <div class="comment-image">
+                            <img src="https://i.ibb.co/VgV0r2m/avatar.png" />
                         </div>
-                    </a>
-                </td>
-            </tr>
+                    </td>
+                    <td class="comment-column--right">
+                        <div class="comment-head">Сергей <span class="comment-date">28 мая 2020 в 20:23</span> </div>
+                        <div class="comment-body">Ниже 4,5кк не снижаемся. Это самый максимум. Должно быть ок. 
+                            В следующий раз возьмите себе за правило, чтобы меня больше не дергали.
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
           </mj-table>
         </mj-column>
       </mj-section>
 
-        <!-- BUTTON -->
+          <!-- BUTTON -->
 
       <mj-section css-class="tp3-button-section" padding="7px 0 58px" text-align="left">
-        <mj-column css-class="tp3-button-column" width="300px">
+        <mj-column css-class="tp3-button-column" width="325px">
           <mj-button css-class="tp3-button reset-button" mj-class="tp3-button">
-            Перейти в Тендерплан
+            Ответить в Тендерплане
           </mj-button>
         </mj-column>
       </mj-section>
+
+
 
         <mj-include path="./include/partials/phone.mjml" />
     </mj-wrapper>
