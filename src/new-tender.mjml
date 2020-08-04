@@ -10,21 +10,15 @@
         .title-column {
             width: 500px !important;
         }
-
-        .tender-content {
-            border: 1px solid #D2DBE7 !important;
-            border-radius: 3px !important;
-        }
-        
     </mj-style>
 
     <mj-style>
         @media only screen and (max-width:500px) {
-          .title-column {
+            .title-column {
                 width: 100% !important;
-          }
+            }
 
-          .tp3-button-section>table>tbody>tr>td {
+              .tp3-button-section>table>tbody>tr>td {
               padding: 0 0 48px !important;
               text-align: center !important;
           }
@@ -42,12 +36,11 @@
         }
     </mj-style>
 
-
     <mj-title>
-      Вас назначили ответственным
+        В метку добавлены новые тендеры
     </mj-title>
     <mj-preview>
-      Пользователь <Имя пользователя> назначил вас ответственным
+        Пользователь <Имя пользователя> добавил 2 тендера в метку <Название метки>
     </mj-preview>
   </mj-head>
 
@@ -63,17 +56,36 @@
         </mj-column>
       </mj-section>
 
-      <!-- TITLE -->
+    <!-- TITLE -->
 
-      <mj-section padding-bottom="16px">
+      <mj-section padding-bottom="8px">
         <mj-column css-class="title-column" width="500px">
           <mj-text mj-class="title">
-            Вас назначили <br class="mobile-show" /> ответственным
+            Новый тендеры в метке 
           </mj-text>
         </mj-column>
       </mj-section>
 
-      <!-- USER -->
+         <!-- MARK -->
+
+      <mj-section padding="7px 0 16px">
+        <mj-column>
+          <mj-text>
+            <div class="mark">
+              <span class="mark-shape" style="background-color: #D21D4E !important;"></span><span class="mark-text">Интересно</span>
+            </div>
+            <div class="mark">
+              <span class="mark-shape" style="background-color: #2F77FF !important;"></span><span class="mark-text">Узнать у Иванова</span>
+            </div>
+            <div class="mark">
+              <span class="mark-shape" style="background-color: #37B673 !important;"></span><span class="mark-text">ЕГРЮЛ</span>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+         <!-- USER -->
 
       <mj-section css-class="user-section" padding-bottom="16px">
         <mj-column>
@@ -87,7 +99,7 @@
                 </td>
                 <td class="user-column--right">
                   <div class="user-name">Пользователь Сергей Иванов</div>
-                  <div class="user-text">Назначил вас ответственным в 3 извещениях</div>
+                  <div class="user-text">Отметил 2 тендера</div>
                   <div class="user-date">28 мая 2020 в 20:23 </div>
                 </td>
               </tr>
@@ -98,29 +110,34 @@
 
       <!-- TENDER -->
 
-      <mj-section css-class="tender-section" padding-bottom="16px">
+      <mj-section padding-bottom="15px">
         <mj-column>
           <mj-table>
             <tr>
+              <th class="tender-column--left">
+                <div style="border-radius: 3px 0 0 0 !important; background-color: #D21D4E !important; height: 33.3% !important;"></div>
+                <div style="background-color: #2F77FF !important; height: 33.3% !important;"></div>
+                <div style="border-radius: 0 0 0 3px !important; background-color: #37B673 !important; height: 33.3% !important;"></div>
+              </th>
               <th class="tender-column--right">
                 <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
                   <div class="tender-content">
-                    <div style="padding-bottom:12px;">
-                      Поставка медицинских изделий (Томограф рентгеновский компьютерный от 512 срезов с программным обеспечением и сопутствующим оборудованием для выполнения исследований
+                    <div style="padding-bottom:8px;">
+                        Поставка лекарственных препаратов для медицинского применения МНН Инсулин гларгин для обеспечения отдельных категорий граждан, имеющих право на государственную социальную помощь
                     </div>
 
                     <div class="tender-info">
                       <span class="tender-info-item">ЭА</span>
                       <span class="tender-info-item">26.06.2020</span>
-                      <span class="tender-info-item red-color">Остался 1 день</span>
-                      <span class="tender-info-item">1 524 500 ₽</span>
+                      <span class="tender-info-item">Осталось 10 дней</span>
+                      <span class="tender-info-item">5 714 700 ₽</span>
                       <span class="tender-info-item">44 ФЗ</span>
                       <span class="tender-info-item">Ульяновская обл.</span>
                       <span class="tender-info-item tender-info-item--last">
                             <span class="tender-user-image">
                                 <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
-                            </span>
-                      <span class="tender-user-name">Константин Константинопольский</span>
+                            </span>  
+                            <span class="tender-user-name">Владилен Прохоров</span>
                       </span>
                     </div>
                   </div>
@@ -131,31 +148,35 @@
         </mj-column>
       </mj-section>
 
-      <!-- TENDER -->
+            <!-- TENDER -->
 
-      <mj-section css-class="tender-section" padding-bottom="16px">
+      <mj-section padding-bottom="15px">
         <mj-column>
           <mj-table>
             <tr>
+              <th class="tender-column--left">
+                <div style="border-radius: 3px 0 0 0 !important; background-color: #D21D4E !important; height: 33.3% !important;"></div>
+                <div style="background-color: #2F77FF !important; height: 33.3% !important;"></div>
+                <div style="border-radius: 0 0 0 3px !important; background-color: #37B673 !important; height: 33.3% !important;"></div>
+              </th>
               <th class="tender-column--right">
                 <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
                   <div class="tender-content">
-                    <div style="padding-bottom:12px;">
-                      Рассматриваются претенденты на поставку кирпича лицевого и рядового, в Московскую область, для нужд генподрядной организации ООО "Строительная Компания МИС", которая выполняет работы
+                    <div style="padding-bottom:8px;">
+                        Поставка лакокрасочных материалов и сопутствующих товаров для нужд муниципального бюджетного образовательного учреждения "Детский сад №20" с. Трусово
                     </div>
 
                     <div class="tender-info">
                       <span class="tender-info-item">ЭА</span>
-                      <span class="tender-info-item">21.06.2020</span>
-                      <span class="tender-info-item red-color">Остался 2 дня</span>
-                      <span class="tender-info-item">4 212 500 ₽</span>
-                      <span class="tender-info-item">44 ФЗ</span>
+                      <span class="tender-info-item">26.06.2020</span>
+                      <span class="tender-info-item red-color">Осталось 3 дня</span>
+                      <span class="tender-info-item">19 573 ₽</span>
                       <span class="tender-info-item">Ульяновская обл.</span>
                       <span class="tender-info-item tender-info-item--last">
                             <span class="tender-user-image">
                                 <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
-                            </span>
-                      <span class="tender-user-name">Константин Константинопольский</span>
+                            </span>  
+                            <span class="tender-user-name">Алексей Крылов</span>
                       </span>
                     </div>
                   </div>
@@ -166,43 +187,7 @@
         </mj-column>
       </mj-section>
 
-
-      <!-- TENDER -->
-
-      <mj-section css-class="tender-section" padding-bottom="16px">
-        <mj-column>
-          <mj-table>
-            <tr>
-              <th class="tender-column--right">
-                <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
-                  <div class="tender-content">
-                    <div style="padding-bottom:12px;">
-                      Поставка строительных материалов и замочно-скобяных изделий
-                    </div>
-
-                    <div class="tender-info">
-                      <span class="tender-info-item">ЭА</span>
-                      <span class="tender-info-item">22.06.2020</span>
-                      <span class="tender-info-item red-color">Остался 1 день</span>
-                      <span class="tender-info-item">5 633 500 ₽</span>
-                      <span class="tender-info-item">44 ФЗ</span>
-                      <span class="tender-info-item">Ульяновская обл.</span>
-                      <span class="tender-info-item tender-info-item--last">
-                            <span class="tender-user-image">
-                                <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
-                            </span>
-                      <span class="tender-user-name">Константин Константинопольский</span>
-                      </span>
-                    </div>
-                  </div>
-                </a>
-              </th>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
-
-      <!-- BUTTON -->
+         <!-- BUTTON -->
 
       <mj-section css-class="tp3-button-section" padding="16px 0 58px" text-align="left">
         <mj-column css-class="tp3-button-column" width="315px">
@@ -212,8 +197,12 @@
         </mj-column>
       </mj-section>
 
+      
 
-      <mj-include path="./include/partials/phone.mjml" />
+
+
+
+        <mj-include path="./include/partials/phone.mjml" />
     </mj-wrapper>
 
     <mj-include path="./include/partials/footer-browser.mjml" />
