@@ -62,11 +62,6 @@
                 padding: 0 0 48px !important;
                 text-align: center !important;
             }
-
-            .tp3-button-section>table>tbody>tr>td {
-                padding: 0 0 48px !important;
-                text-align: center !important;
-            }
             
             .tp3-button-column {
                 width: 300px !important;
@@ -81,10 +76,10 @@
     </mj-style>
 
     <mj-title>
-        Новый комментарий в извещении
+      Новый комментарий в извещении
     </mj-title>
     <mj-preview>
-        Пользователь <Имя пользователя> оставил комментарий в извещении
+      Пользователь <Имя пользователя> оставил комментарий в извещении
     </mj-preview>
   </mj-head>
 
@@ -105,13 +100,13 @@
       <mj-section padding-bottom="8px">
         <mj-column css-class="title-column" width="500px">
           <mj-text mj-class="title">
-            Новый комментарий <br class="mobile-show"/> в извещении
+            Новый комментарий <br class="mobile-show" /> в извещении
           </mj-text>
         </mj-column>
       </mj-section>
 
 
-           <!-- MARK -->
+      <!-- MARK -->
 
       <mj-section padding="7px 0 10px">
         <mj-column>
@@ -157,9 +152,9 @@
                       <span class="tender-info-item tender-info-item--last">
                             <span class="tender-user-image">
                                 <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
-                            </span>  
-                            <span class="tender-user-name">Константин Константинопольский</span>
-                        </span>
+                            </span>
+                      <span class="tender-user-name">Константин Константинопольский</span>
+                      </span>
                     </div>
                   </div>
                 </a>
@@ -169,31 +164,30 @@
         </mj-column>
       </mj-section>
 
-           <!-- COMMENT -->
+      <!-- COMMENT -->
 
       <mj-section css-class="comment-section" padding-bottom="25px">
         <mj-column>
           <mj-table>
             <tbody style="vertical-align: top !important;">
-                <tr>
-                    <td class="comment-column--left">
-                        <div class="comment-image">
-                            <img src="https://i.ibb.co/VgV0r2m/avatar.png" />
-                        </div>
-                    </td>
-                    <td class="comment-column--right">
-                        <div class="comment-head">Сергей <span class="comment-date">28 мая 2020 в 20:23</span> </div>
-                        <div class="comment-body">Ниже 4,5кк не снижаемся. Это самый максимум. Должно быть ок. 
-                            В следующий раз возьмите себе за правило, чтобы меня больше не дергали.
-                        </div>
-                    </td>
-                </tr>
+              <tr>
+                <td class="comment-column--left">
+                  <div class="comment-image">
+                    <img src="https://i.ibb.co/VgV0r2m/avatar.png" />
+                  </div>
+                </td>
+                <td class="comment-column--right">
+                  <div class="comment-head">Сергей <span class="comment-date">28 мая 2020 в 20:23</span> </div>
+                  <div class="comment-body">Ниже 4,5кк не снижаемся. Это самый максимум. Должно быть ок. В следующий раз возьмите себе за правило, чтобы меня больше не дергали.
+                  </div>
+                </td>
+              </tr>
             </tbody>
           </mj-table>
         </mj-column>
       </mj-section>
 
-          <!-- BUTTON -->
+      <!-- BUTTON -->
 
       <mj-section css-class="tp3-button-section" padding="7px 0 58px" text-align="left">
         <mj-column css-class="tp3-button-column" width="325px">
@@ -205,7 +199,7 @@
 
 
 
-        <mj-include path="./include/partials/phone.mjml" />
+      <mj-include path="./include/partials/phone.mjml" />
     </mj-wrapper>
 
     <mj-include path="./include/partials/footer-browser.mjml" />

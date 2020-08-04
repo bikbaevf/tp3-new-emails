@@ -1,0 +1,257 @@
+<mjml>
+  <mj-head>
+    <mj-include path="./include/main.mjml" />
+
+    <mj-attributes>
+      <mj-class name="tp3-button" width="315px" align="left" href="#" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+        .title-column {
+            width: 500px !important;
+        }
+
+        .user-column--left {
+            width: 50px !important;
+        }
+
+        .user-image {
+            width: 50px !important; 
+            height: 50px !important; 
+            border-radius: 50% !important; 
+            overflow: hidden !important;
+        }
+
+        .user-column--right {
+            padding-left: 10px !important;
+        }
+
+        .user-name {
+            font-weight: bold !important;
+            font-size: 16px !important;
+            line-height: 24px !important;
+            color: #394D72 !important;
+            padding-bottom: 4px !important;
+        }
+
+        .user-text {
+            font-size: 14px !important;
+            line-height: 20px !important;
+            color: #394D72 !important;
+            padding-bottom: 4px !important;
+        }
+
+        .user-date {
+            font-size: 14px !important;
+            line-height: 21px !important;
+            color: rgba(57, 77, 114, 0.5) !important;
+        }
+
+        .tender-content {
+            border: 1px solid #D2DBE7 !important;
+            border-radius: 3px !important;
+        }
+        
+    </mj-style>
+
+    <mj-style>
+        @media only screen and (max-width:500px) {
+          .title-column {
+                width: 100% !important;
+          }
+
+          .tp3-button-section>table>tbody>tr>td {
+              padding: 0 0 48px !important;
+              text-align: center !important;
+          }
+            
+          .tp3-button-column {
+              width: 300px !important;
+          }
+          
+          .tp3-button a {
+              font-size: 18px !important;
+              line-height: 21px !important;
+              width: 300px !important;
+              padding: 15px 0 !important;
+          }
+        }
+    </mj-style>
+
+
+    <mj-title>
+      Вас назначили ответственным
+    </mj-title>
+    <mj-preview>
+      Пользователь <Имя пользователя> назначил вас ответственным
+    </mj-preview>
+  </mj-head>
+
+
+  <mj-body css-class="body" width="580px" background-color="#F1F4F9">
+    <mj-wrapper css-class="wrapper" padding="0 40px" background-color="#FFFFFF">
+
+      <!-- LOGO -->
+
+      <mj-section css-class="logo-section" padding="42px 0 32px">
+        <mj-column>
+          <mj-image css-class="logo" padding="0" align="left" width="171px" src="https://i.ibb.co/zxwVM3N/logo.png" href="https://tenderplan.ru/?utm_source=email&utm_medium=logo&utm_campaign=welcome" />
+        </mj-column>
+      </mj-section>
+
+      <!-- TITLE -->
+
+      <mj-section padding-bottom="16px">
+        <mj-column css-class="title-column" width="500px">
+          <mj-text mj-class="title">
+            Вас назначили <br class="mobile-show" /> ответственным
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- USER -->
+
+      <mj-section css-class="user-section" padding-bottom="16px">
+        <mj-column>
+          <mj-table>
+            <tbody style="vertical-align: top !important;">
+              <tr>
+                <td class="user-column--left">
+                  <div class="user-image">
+                    <img src="https://i.ibb.co/VgV0r2m/avatar.png" />
+                  </div>
+                </td>
+                <td class="user-column--right">
+                  <div class="user-name">Пользователь Сергей Иванов</div>
+                  <div class="user-text">Назначил вас ответственным в 3 извещениях</div>
+                  <div class="user-date">28 мая 2020 в 20:23 </div>
+                </td>
+              </tr>
+            </tbody>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- TENDER -->
+
+      <mj-section css-class="tender-section" padding-bottom="16px">
+        <mj-column>
+          <mj-table>
+            <tr>
+              <th class="tender-column--right">
+                <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
+                  <div class="tender-content">
+                    <div style="padding-bottom:12px;">
+                      Поставка медицинских изделий (Томограф рентгеновский компьютерный от 512 срезов с программным обеспечением и сопутствующим оборудованием для выполнения исследований
+                    </div>
+
+                    <div class="tender-info">
+                      <span class="tender-info-item">ЭА</span>
+                      <span class="tender-info-item">26.06.2020</span>
+                      <span class="tender-info-item red-color">Остался 1 день</span>
+                      <span class="tender-info-item">1 524 500 ₽</span>
+                      <span class="tender-info-item">44 ФЗ</span>
+                      <span class="tender-info-item">Ульяновская обл.</span>
+                      <span class="tender-info-item tender-info-item--last">
+                            <span class="tender-user-image">
+                                <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
+                            </span>
+                      <span class="tender-user-name">Константин Константинопольский</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- TENDER -->
+
+      <mj-section css-class="tender-section" padding-bottom="16px">
+        <mj-column>
+          <mj-table>
+            <tr>
+              <th class="tender-column--right">
+                <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
+                  <div class="tender-content">
+                    <div style="padding-bottom:12px;">
+                      Рассматриваются претенденты на поставку кирпича лицевого и рядового, в Московскую область, для нужд генподрядной организации ООО "Строительная Компания МИС", которая выполняет работы
+                    </div>
+
+                    <div class="tender-info">
+                      <span class="tender-info-item">ЭА</span>
+                      <span class="tender-info-item">21.06.2020</span>
+                      <span class="tender-info-item red-color">Остался 2 дня</span>
+                      <span class="tender-info-item">4 212 500 ₽</span>
+                      <span class="tender-info-item">44 ФЗ</span>
+                      <span class="tender-info-item">Ульяновская обл.</span>
+                      <span class="tender-info-item tender-info-item--last">
+                            <span class="tender-user-image">
+                                <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
+                            </span>
+                      <span class="tender-user-name">Константин Константинопольский</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- TENDER -->
+
+      <mj-section css-class="tender-section" padding-bottom="16px">
+        <mj-column>
+          <mj-table>
+            <tr>
+              <th class="tender-column--right">
+                <a href="#" target="_blank" style="text-decoration: none !important; color: #000000;">
+                  <div class="tender-content">
+                    <div style="padding-bottom:12px;">
+                      Поставка строительных материалов и замочно-скобяных изделий
+                    </div>
+
+                    <div class="tender-info">
+                      <span class="tender-info-item">ЭА</span>
+                      <span class="tender-info-item">22.06.2020</span>
+                      <span class="tender-info-item red-color">Остался 1 день</span>
+                      <span class="tender-info-item">5 633 500 ₽</span>
+                      <span class="tender-info-item">44 ФЗ</span>
+                      <span class="tender-info-item">Ульяновская обл.</span>
+                      <span class="tender-info-item tender-info-item--last">
+                            <span class="tender-user-image">
+                                <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
+                            </span>
+                      <span class="tender-user-name">Константин Константинопольский</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- BUTTON -->
+
+      <mj-section css-class="tp3-button-section" padding="16px 0 58px" text-align="left">
+        <mj-column css-class="tp3-button-column" width="315px">
+          <mj-button css-class="tp3-button reset-button" mj-class="tp3-button">
+            Открыть в Тендерплане
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-include path="./include/partials/phone.mjml" />
+    </mj-wrapper>
+
+    <mj-include path="./include/partials/footer-browser.mjml" />
+  </mj-body>
+</mjml>

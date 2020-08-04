@@ -54,14 +54,13 @@
                 line-height: 15px !important; 
             }
         }
-
     </mj-style>
-        Дайджест
+
     <mj-title>
-        
+      Дайджест
     </mj-title>
     <mj-preview>
-        Появились новые протоколы
+      Появились новые протоколы
     </mj-preview>
   </mj-head>
 
@@ -77,7 +76,7 @@
         </mj-column>
       </mj-section>
 
-    <!-- TITLE -->
+      <!-- TITLE -->
 
       <mj-section padding-bottom="8px">
         <mj-column css-class="title-column" width="500px">
@@ -86,7 +85,6 @@
           </mj-text>
         </mj-column>
       </mj-section>
-
 
       <!-- MARK -->
 
@@ -100,9 +98,9 @@
         </mj-column>
       </mj-section>
 
-           <!-- TENDER -->
+      <!-- TENDER -->
 
-    <mj-section padding-bottom="25px">
+      <mj-section padding-bottom="25px">
         <mj-column>
           <mj-table>
             <tr>
@@ -126,26 +124,26 @@
                       <span class="tender-info-item tender-info-item--last">
                             <span class="tender-user-image">
                                 <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
-                            </span>  
-                            <span class="tender-user-name">Константин Константинопольский</span>
-                        </span>
+                            </span>
+                      <span class="tender-user-name">Константин Константинопольский</span>
+                      </span>
                     </div>
                   </div>
                 </a>
               </th>
             </tr>
             <tr>
-                <td colspan="2" >
-                    <div class="tender-protocol">
-                        Протокол 338300007820000092-2 от 27.05.2020 00:50
-                    </div>
-                </td>
+              <td colspan="2">
+                <div class="tender-protocol">
+                  Протокол 338300007820000092-2 от 27.05.2020 00:50
+                </div>
+              </td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
 
-          <!-- TENDER -->
+      <!-- TENDER -->
 
 
       <mj-section padding-bottom="25px">
@@ -172,9 +170,9 @@
                       <span class="tender-info-item tender-info-item--last">
                             <span class="tender-user-image">
                                 <img src="https://i.ibb.co/RPCnsRW/user-image.png" />
-                            </span>  
-                            <span class="tender-user-name">Владимир Нечаев</span>
-                        </span>
+                            </span>
+                      <span class="tender-user-name">Владимир Нечаев</span>
+                      </span>
                     </div>
                   </div>
                 </a>
@@ -182,17 +180,17 @@
             </tr>
 
             <tr>
-                <td colspan="2" >
-                    <div class="tender-protocol">
-                        Протокол 338300007820000092-2 от 27.05.2020 00:50
-                    </div>
-                </td>
+              <td colspan="2">
+                <div class="tender-protocol">
+                  Протокол 338300007820000092-2 от 27.05.2020 00:50
+                </div>
+              </td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
 
-            <!-- MARK -->
+      <!-- MARK -->
 
       <mj-section padding="7px 0 10px">
         <mj-column>
@@ -203,8 +201,6 @@
           </mj-text>
         </mj-column>
       </mj-section>
-
-
 
       <mj-section padding-bottom="25px">
         <mj-column>
@@ -232,17 +228,13 @@
                 </a>
               </th>
             </tr>
-
             <tr>
-                <td colspan="2" >
-                    <div class="tender-protocol">
-                        Протокол 338300007820000095-2 от 26.05.2020 00:50
-                    </div>
-                </td>
+              <td colspan="2">
+                <div class="tender-protocol">
+                  Протокол 338300007820000095-2 от 26.05.2020 00:50
+                </div>
+              </td>
             </tr>
-
-
-
           </mj-table>
         </mj-column>
       </mj-section>
@@ -258,7 +250,7 @@
       </mj-section>
 
 
-        <mj-include path="./include/partials/phone.mjml" />
+      <mj-include path="./include/partials/phone.mjml" />
     </mj-wrapper>
 
     <mj-include path="./include/partials/footer-browser.mjml" />
