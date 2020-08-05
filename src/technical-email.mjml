@@ -1,0 +1,110 @@
+<mjml>
+  <mj-head>
+    <mj-include path="./include/main.mjml" />
+
+    <mj-attributes>
+      <mj-class name="text-section" padding-bottom="16px" />
+      <mj-class name="text" font-size="16px" line-height="25px" color="#394D72" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+        .title-column {
+            width: 500px !important;
+        }
+    </mj-style>
+
+    <mj-style>
+        @media only screen and (max-width:500px) {
+            .logo-section>table>tbody>tr>td {
+              padding: 38px 0 44px !important;
+            }
+
+            .title-column {
+                width: 100% !important;
+            }
+
+            .title>div {
+                font-size: 22px !important;
+                line-height: 33px !important;
+            }
+
+            .text-section>table>tbody>tr>td {
+              padding-bottom: 20px !important;
+            }
+
+            .text-bottom>table>tbody>tr>td {
+              padding-bottom: 42px !important;
+            } 
+           
+        }
+    </mj-style>
+
+    <mj-title>
+        <зависит от контекста письма>
+    </mj-title>
+    <mj-preview>
+        <зависит от контекста письма>
+    </mj-preview>
+  </mj-head>
+
+
+  <mj-body css-class="body" width="580px" background-color="#F1F4F9">
+    <mj-wrapper css-class="wrapper" padding="0 40px" background-color="#FFFFFF">
+
+      <!-- LOGO -->
+
+      <mj-section css-class="logo-section" padding="42px 0 32px">
+        <mj-column>
+          <mj-image css-class="logo" padding="0" align="left" width="171px" src="https://i.ibb.co/zxwVM3N/logo.png" href="https://tenderplan.ru/?utm_source=email&utm_medium=logo&utm_campaign=welcome" />
+        </mj-column>
+      </mj-section>
+
+
+          <!-- TITLE -->
+
+      <mj-section padding-bottom="24px">
+        <mj-column css-class="title-column" width="500px">
+          <mj-text css-class="title" mj-class="title" font-size="24px" line-height="28px">
+            Здравствуйте, <br class="mobile-show"/> Андрей Чугунов
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="text-section" mj-class="text-section">
+        <mj-column>
+          <mj-text mj-class="text">
+                Ввиду сложившейся ситуации с распространением новой инфекцией считаем нужным уведомить Вас о скорости проникновения ключевых слов covid, NCOV, SARS-CoV в документацию о закупках. 
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+        <mj-section css-class="text-section" mj-class="text-section">
+        <mj-column>
+          <mj-text mj-class="text">
+                Всего за неделю с момента обнаружения первого подобного случая количество тендеров, содержащих коронавирусные слова, составило более 200. За вторую неделю распространения пандемии этими ключевыми словами было заражено уже более 1500 закупок. 
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+        <mj-section css-class="text-section" mj-class="text-section">
+        <mj-column>
+          <mj-text mj-class="text">
+            Тендеры с ковидными условиями обеспечены гарантиями государства и преференциями для поставщиков. Будьте внимательны и активны!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+        <mj-section css-class="text-bottom" padding-bottom="48px">
+        <mj-column>
+          <mj-text font-weight="bold" font-size="16px" line-height="25px" >
+            Желаем вам иммунитета и здорового роста!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+        <mj-include path="./include/partials/phone.mjml" />
+    </mj-wrapper>
+
+    <mj-include path="./include/partials/footer.mjml" />
+  </mj-body>
+</mjml>

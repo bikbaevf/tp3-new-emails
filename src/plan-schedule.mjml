@@ -139,7 +139,7 @@
         </mj-column>
       </mj-section>
 
-            <!-- BUTTON -->
+      <!-- BUTTON -->
 
       <mj-section css-class="tp3-button-section" padding="16px 0 58px" text-align="left">
         <mj-column css-class="tp3-button-column" width="350px">
